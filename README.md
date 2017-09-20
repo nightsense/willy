@@ -18,7 +18,7 @@ For easy management of Vim colour schemes (and other plugins), try a plugin mana
 
 ### step 2: activate the colour scheme
 
-To activate the willy theme, add one of the following lines to your `vimrc`:
+To activate the willy theme, add the following line to your `vimrc`:
 
 - `colorscheme willy`
 
