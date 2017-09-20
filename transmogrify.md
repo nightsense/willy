@@ -33,8 +33,8 @@
 %s/Identifier",   s:gui08, "", s:cterm08, "", "none/Identifier",   s:gui0A, "", s:cterm0A, "", "bold/ |
 %s/LineNr",        s:gui03, s:gui01, s:cterm03, s:cterm01/LineNr",        s:gui04, s:gui00, s:cterm04, s:cterm00/ |
 %s/Normal",        s:gui05, s:gui00, s:cterm05, s:cterm00/Normal",        s:gui05, s:gui01, s:cterm05, s:cterm01/ |
-%s/Search",        s:gui03, s:gui0A, s:cterm03, s:cterm0A,  "", "")/Search",        s:gui00, s:gui05, s:cterm00, s:cterm05,  "", "")/ |
-%s/statusline",    s:gui04, s:gui02, s:cterm04, s:cterm02/statusline",    s:gui05, s:gui02, s:cterm02, s:cterm00/ |
+%s/Search",        s:gui03, s:gui0A, s:cterm03, s:cterm0A/Search",        s:gui00, s:gui05, s:cterm00, s:cterm05/ |
+%s/statusline",    s:gui04, s:gui02, s:cterm04, s:cterm02/statusline",    s:gui05, s:gui02, s:cterm05, s:cterm02/ |
 %s/StatusLineNC",  s:gui03, s:gui01, s:cterm03, s:cterm01/StatusLineNC",  s:gui04, s:gui00, s:cterm04, s:cterm00/ |
 %s/Visual",        "", s:gui02, "", s:cterm02/Visual",        s:gui06, s:gui03, s:cterm06, s:cterm03/ |
 %s/VisualNOS",     s:gui08, "", s:cterm08, "", ""/VisualNOS",     "", s:gui02, "", s:cterm02, "none"/ |
