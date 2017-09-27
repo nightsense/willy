@@ -27,6 +27,7 @@
 %s/a16946/bf8fb7/ |
 
 %s/Character",    s:gui08, "", s:cterm08/Character",    s:gui0A, "", s:cterm0A/ |
+%s/ColorColumn",   "", s:gui01, "", s:cterm01/ColorColumn",   "", s:gui02, "", s:cterm02/ |
 %s/Cursor",        s:gui00, s:gui05, s:cterm00, s:cterm05/Cursor",        s:gui01, s:gui0A, s:cterm01, s:cterm0A/ |
 %s/CursorLine",    "", s:gui01, "", s:cterm01/CursorLine",    "", s:gui02, "", s:cterm02/ |
 %s/CursorLineNr",  s:gui04, s:gui01, s:cterm04, s:cterm01/CursorLineNr",  s:gui04, s:gui01, s:cterm04, s:cterm01/ |
