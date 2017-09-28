@@ -27,46 +27,15 @@
 %s/a16946/bf8fb7/ |
 
 %s/Character",    s:gui08, "", s:cterm08/Character",    s:gui0A, "", s:cterm0A/ |
-%s/ColorColumn",   "", s:gui01, "", s:cterm01/ColorColumn",   "", s:gui02, "", s:cterm02/ |
-%s/Cursor",        s:gui00, s:gui05, s:cterm00, s:cterm05/Cursor",        s:gui01, s:gui0A, s:cterm01, s:cterm0A/ |
-%s/CursorLine",    "", s:gui01, "", s:cterm01/CursorLine",    "", s:gui02, "", s:cterm02/ |
-%s/CursorLineNr",  s:gui04, s:gui01, s:cterm04, s:cterm01/CursorLineNr",  s:gui04, s:gui01, s:cterm04, s:cterm01/ |
+%s/Cursor",        s:gui00, s:gui05, s:cterm00, s:cterm05/Cursor",        s:gui00, s:gui0A, s:cterm00, s:cterm0A/ |
 %s/Identifier",   s:gui08, "", s:cterm08, "", "none/Identifier",   s:gui0A, "", s:cterm0A, "", "bold/ |
-%s/LineNr",        s:gui03, s:gui01, s:cterm03, s:cterm01/LineNr",        s:gui04, s:gui00, s:cterm04, s:cterm00/ |
-%s/Normal",        s:gui05, s:gui00, s:cterm05, s:cterm00/Normal",        s:gui05, s:gui01, s:cterm05, s:cterm01/ |
-%s/Search",        s:gui03, s:gui0A, s:cterm03, s:cterm0A/Search",        s:gui00, s:gui05, s:cterm00, s:cterm05/ |
-%s/statusline",    s:gui04, s:gui02, s:cterm04, s:cterm02/statusline",    s:gui05, s:gui02, s:cterm05, s:cterm02/ |
-%s/StatusLineNC",  s:gui03, s:gui01, s:cterm03, s:cterm01/StatusLineNC",  s:gui04, s:gui00, s:cterm04, s:cterm00/ |
-%s/Visual",        "", s:gui02, "", s:cterm02/Visual",        s:gui06, s:gui03, s:cterm06, s:cterm03/ |
-%s/VisualNOS",     s:gui08, "", s:cterm08, "", ""/VisualNOS",     "", s:gui02, "", s:cterm02, "none"/ |
+%s/LineNr",        s:gui03, s:gui01, s:cterm03/LineNr",        s:gui04, s:gui01, s:cterm04/ |
+%s/Search",        s:gui03, s:gui0A, s:cterm03, s:cterm0A/Search",        s:gui00, s:gui04, s:cterm00, s:cterm04/ |
+%s/statusline",    s:gui04, s:gui02, s:cterm04, s:cterm02/statusline",    s:gui00, s:gui0A, s:cterm00, s:cterm0A/ |
+%s/StatusLineNC",  s:gui03, s:gui01, s:cterm03, s:cterm01/StatusLineNC",  s:gui05, s:gui01, s:cterm05, s:cterm01/ |
+%s/Visual",        "", s:gui02, "", s:cterm02/Visual",        s:gui06, s:gui02, s:cterm06, s:cterm02/ |
+%s/VisualNOS",     s:gui08, "", s:cterm08, "", ""/VisualNOS",     "", s:gui01, "", s:cterm01, "none"/ |
 %s/WildMenu",      s:gui08, s:gui0A, s:cterm08, ""/WildMenu",      s:gui00, s:gui0A, s:cterm00, s:cterm0A/ |
-
-%s/Comment",      s:gui03, "", s:cterm03, ""/Comment",      s:gui04, "", s:cterm04, ""/ |
-%s/Folded",        s:gui03, s:gui01, s:cterm03, s:cterm01/Folded",        s:gui03, s:gui01, s:cterm03, s:cterm01/ |
-%s/MatchParen",    "", s:gui03, "", s:cterm03,  ""/MatchParen",    "", s:gui03, "", s:cterm03,  ""/ |
-%s/SpecialKey",    s:gui03, "", s:cterm03, ""/SpecialKey",    s:gui03, "", s:cterm03, ""/ |
-%s/NonText",       s:gui03, "", s:cterm03, ""/NonText",       s:gui03, "", s:cterm03, ""/ |
-%s/SignColumn",    s:gui03, s:gui01, s:cterm03, s:cterm01/SignColumn",    s:gui03, s:gui01, s:cterm03, s:cterm01/ |
-%s/TabLine",       s:gui03, s:gui01, s:cterm03, s:cterm01/TabLine",       s:gui03, s:gui01, s:cterm03, s:cterm01/ |
-%s/TabLineFill",   s:gui03, s:gui01, s:cterm03, s:cterm01/TabLineFill",   s:gui03, s:gui01, s:cterm03, s:cterm01/ |
-%s/DiffChange",   s:gui03, s:gui01,  s:cterm03, s:cterm01/DiffChange",   s:gui03, s:gui01,  s:cterm03, s:cterm01/ |
-%s/gitcommitComment",        s:gui03, "", s:cterm03, ""/gitcommitComment",        s:gui03, "", s:cterm03, ""/ |
-%s/gitcommitUntracked",      s:gui03, "", s:cterm03, ""/gitcommitUntracked",      s:gui03, "", s:cterm03, ""/ |
-%s/gitcommitDiscarded",      s:gui03, "", s:cterm03, ""/gitcommitDiscarded",      s:gui03, "", s:cterm03, ""/ |
-%s/gitcommitSelected",       s:gui03, "", s:cterm03, ""/gitcommitSelected",       s:gui03, "", s:cterm03, ""/ |
-
-%s/ErrorMsg",      s:gui08, s:gui00, s:cterm08, s:cterm00/ErrorMsg",      s:gui08, s:gui01, s:cterm08, s:cterm01/ |
-%s/Conceal",       s:gui0D, s:gui00, s:cterm0D, s:cterm00/Conceal",       s:gui0D, s:gui01, s:cterm0D, s:cterm01/ |
-%s/DiffAdded",    s:gui0B, s:gui00,  s:cterm0B, s:cterm00/DiffAdded",    s:gui0B, s:gui01,  s:cterm0B, s:cterm01/ |
-%s/DiffFile",     s:gui08, s:gui00,  s:cterm08, s:cterm00/DiffFile",     s:gui08, s:gui01,  s:cterm08, s:cterm01/ |
-%s/DiffNewFile",  s:gui0B, s:gui00,  s:cterm0B, s:cterm00/DiffNewFile",  s:gui0B, s:gui01,  s:cterm0B, s:cterm01/ |
-%s/DiffLine",     s:gui0D, s:gui00,  s:cterm0D, s:cterm00/DiffLine",     s:gui0D, s:gui01,  s:cterm0D, s:cterm01/ |
-%s/DiffRemoved",  s:gui08, s:gui00,  s:cterm08, s:cterm00/DiffRemoved",  s:gui08, s:gui01,  s:cterm08, s:cterm01/ |
-%s/markdownError",             s:gui05, s:gui00, s:cterm05, s:cterm00/markdownError",             s:gui05, s:gui01, s:cterm05, s:cterm01/ |
-%s/SpellBad",     "", s:gui00, "", s:cterm00/SpellBad",     "", s:gui01, "", s:cterm01/ |
-%s/SpellLocal",   "", s:gui00, "", s:cterm00/SpellLocal",   "", s:gui01, "", s:cterm01/ |
-%s/SpellCap",     "", s:gui00, "", s:cterm00/SpellCap",     "", s:gui01, "", s:cterm01/ |
-%s/SpellRare",    "", s:gui00, "", s:cterm00/SpellRare",    "", s:gui01, "", s:cterm01/ |
 
 normal =gg
 ```
