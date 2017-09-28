@@ -2,7 +2,13 @@
 
 A vim theme inspired by the [Amazing Chocolatier keycap set](http://zambumon.github.io/) by Zambumon.
 
-<img src="img/screenshot-willy.png" alt="screenshot of the willy vim theme" width="288" />
+## screenshots
+
+<table>
+<tr></tr><tr><td align="center"><strong>willy-<br>light</strong></td>
+<td align="center"><img src="img/screenshot-willy-light.png" alt="screenshot of the willy-light vim theme" width="288"> <img src="img/screenshot-willy-dark.png" alt="screenshot of the willy-dark vim theme" width="288"></td>
+<td align="center"><strong>willy-<br>dark</strong></td></tr>
+</table>
 
 ## installation
 
@@ -18,9 +24,10 @@ For easy management of Vim colour schemes (and other plugins), try a plugin mana
 
 ### step 2: activate the colour scheme
 
-To activate the willy theme, add the following line to your `vimrc`:
+To activate the willy theme, add one of the following lines to your `vimrc`:
 
-- `colorscheme willy`
+- `colorscheme willy-light`
+- `colorscheme willy-dark`
 
 To assign themes to specific intervals of the day, try the [night-and-day](https://github.com/nightsense/night-and-day) plugin.
 

@@ -1,7 +1,7 @@
 " vi:syntax=vim
 
 if !has('gui_running')
-  execute "silent !/bin/sh $HOME/.nightshell/willy"
+  execute "silent !/bin/sh $HOME/.nightshell/willy-dark"
 endif
 
 " GUI color definitions
@@ -13,14 +13,14 @@ let s:gui04 = "997959"
 let s:gui05 = "bfa580"
 let s:gui06 = "e8d0ae"
 let s:gui07 = "fff2e0"
-let s:gui08 = "d46a73"
-let s:gui09 = "d47b6a"
-let s:gui0A = "d4ab59"
-let s:gui0B = "85ab72"
-let s:gui0C = "72ab98"
-let s:gui0D = "80a5bf"
-let s:gui0E = "978fbf"
-let s:gui0F = "bf8fb7"
+let s:gui08 = "d45963"
+let s:gui09 = "d46d59"
+let s:gui0A = "bf953f"
+let s:gui0B = "63944a"
+let s:gui0C = "56947f"
+let s:gui0D = "6097bf"
+let s:gui0E = "7c72ab"
+let s:gui0F = "ab80a4"
 
 " Terminal color definitions
 let s:cterm00 = "00"
@@ -43,20 +43,20 @@ let s:cterm0F = "17"
 " Neovim terminal colours
 if has("nvim")
   let g:terminal_color_0 =  "#291b14"
-  let g:terminal_color_1 =  "#d46a73"
-  let g:terminal_color_2 =  "#85ab72"
-  let g:terminal_color_3 =  "#d4ab59"
-  let g:terminal_color_4 =  "#80a5bf"
-  let g:terminal_color_5 =  "#978fbf"
-  let g:terminal_color_6 =  "#72ab98"
+  let g:terminal_color_1 =  "#d45963"
+  let g:terminal_color_2 =  "#63944a"
+  let g:terminal_color_3 =  "#bf953f"
+  let g:terminal_color_4 =  "#6097bf"
+  let g:terminal_color_5 =  "#7c72ab"
+  let g:terminal_color_6 =  "#56947f"
   let g:terminal_color_7 =  "#bfa580"
   let g:terminal_color_8 =  "#705441"
-  let g:terminal_color_9 =  "#d47b6a"
+  let g:terminal_color_9 =  "#d46d59"
   let g:terminal_color_10 = "#302018"
   let g:terminal_color_11 = "#523a29"
   let g:terminal_color_12 = "#997959"
   let g:terminal_color_13 = "#e8d0ae"
-  let g:terminal_color_14 = "#bf8fb7"
+  let g:terminal_color_14 = "#ab80a4"
   let g:terminal_color_15 = "#fff2e0"
   let g:terminal_color_background = g:terminal_color_0
   let g:terminal_color_foreground = g:terminal_color_7
@@ -69,7 +69,7 @@ endif
 " Theme setup
 hi clear
 syntax reset
-let g:colors_name = "willy"
+let g:colors_name = "willy-dark"
 
 " Highlighting function
 fun <sid>hi(group, guifg, guibg, ctermfg, ctermbg, attr, guisp)

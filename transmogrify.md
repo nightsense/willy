@@ -1,12 +1,13 @@
 ## vim
 
+- <https://github.com/chriskempson/base16-vim/blob/master/colors/base16-default-light.vim> `c1c3e6c`
 - <https://github.com/chriskempson/base16-vim/blob/master/colors/base16-default-dark.vim> `c1c3e6c`
 
 ```
 3,10d | 4d | 5d | 36d | 42,49d |
 4s#.*/#execute "silent !/bin/sh $HOME/.nightshell/# |
 4s/\.sh// |
-%s/base16-default-dark/willy/ |
+%s/base16-default/willy/ |
 
 %s/181818/291b14/ |
 %s/282828/302018/ |
@@ -17,14 +18,14 @@
 %s/e8e8e8/e8d0ae/ |
 %s/f8f8f8/fff2e0/ |
 
-%s/ab4642/d46a73/ |
-%s/dc9656/d47b6a/ |
-%s/f7ca88/d4ab59/ |
-%s/a1b56c/85ab72/ |
-%s/86c1b9/72ab98/ |
-%s/7cafc2/80a5bf/ |
-%s/ba8baf/978fbf/ |
-%s/a16946/bf8fb7/ |
+%s/ab4642/d45963/ |
+%s/dc9656/d46d59/ |
+%s/f7ca88/bf953f/ |
+%s/a1b56c/63944a/ |
+%s/86c1b9/56947f/ |
+%s/7cafc2/6097bf/ |
+%s/ba8baf/7c72ab/ |
+%s/a16946/ab80a4/ |
 
 %s/Character",    s:gui08, "", s:cterm08/Character",    s:gui0A, "", s:cterm0A/ |
 %s/Cursor",        s:gui00, s:gui05, s:cterm00, s:cterm05/Cursor",        s:gui00, s:gui0A, s:cterm00, s:cterm0A/ |
@@ -42,10 +43,13 @@ normal =gg
 
 ## nightshell
 
+- <https://raw.githubusercontent.com/chriskempson/base16-shell/master/scripts/base16-default-light.sh> `376294b`
 - <https://raw.githubusercontent.com/chriskempson/base16-shell/master/scripts/base16-default-dark.sh> `376294b`
 
 ```
 2,4d |
+
+
 
 %s#18/18/18#29/1b/14# |
 %s#28/28/28#30/20/18# |
@@ -55,14 +59,14 @@ normal =gg
 %s#d8/d8/d8#bf/a5/80# |
 %s#e8/e8/e8#e8/d0/ae# |
 %s#f8/f8/f8#ff/f2/e0# |
-%s#ab/46/42#d4/6a/73# |
-%s#dc/96/56#d4/7b/6a# |
-%s#f7/ca/88#d4/ab/59# |
-%s#a1/b5/6c#85/ab/72# |
-%s#86/c1/b9#72/ab/98# |
-%s#7c/af/c2#80/a5/bf# |
-%s#ba/8b/af#97/8f/bf# |
-%s#a1/69/46#bf/8f/b7# |
+%s#ab/46/42#d4/59/63# |
+%s#dc/96/56#d4/6d/59# |
+%s#f7/ca/88#bf/95/3f# |
+%s#a1/b5/6c#63/94/4a# |
+%s#86/c1/b9#56/94/7f# |
+%s#7c/af/c2#60/97/bf# |
+%s#ba/8b/af#7c/72/ab# |
+%s#a1/69/46#ab/80/a4# |
 
 %s/181818/291b14/ge |
 %s/383838/523a29/g |
@@ -70,5 +74,5 @@ normal =gg
 %s/f8f8f8/fff2e0/ge |
 
 call append(123,["",
-"echo -ne '\\e]12;#d4ab59\\a'"])
+"echo -ne '\\e]12;#bf953f\\a'"])
 ```
