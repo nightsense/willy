@@ -12,7 +12,7 @@ let s:gui03 = "997959"
 let s:gui04 = "705441"
 let s:gui05 = "523a29"
 let s:gui06 = "302018"
-let s:gui07 = "291b14"
+let s:gui07 = "1f130d"
 let s:gui08 = "d45963"
 let s:gui09 = "d46d59"
 let s:gui0A = "bf953f"
@@ -57,7 +57,7 @@ if has("nvim")
   let g:terminal_color_12 = "#705441"
   let g:terminal_color_13 = "#302018"
   let g:terminal_color_14 = "#ab80a4"
-  let g:terminal_color_15 = "#291b14"
+  let g:terminal_color_15 = "#1f130d"
   let g:terminal_color_background = g:terminal_color_0
   let g:terminal_color_foreground = g:terminal_color_7
   if &background == "light"
