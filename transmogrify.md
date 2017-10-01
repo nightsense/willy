@@ -18,19 +18,21 @@
 %s/e8e8e8/e8d0ae/ |
 %s/f8f8f8/fff2e0/ |
 
-%s/ab4642/d45963/ |
-%s/dc9656/d46d59/ |
-%s/f7ca88/bf953f/ |
-%s/a1b56c/63944a/ |
-%s/86c1b9/56947f/ |
-%s/7cafc2/6097bf/ |
+%s/ab4642/d44652/ |
+%s/dc9656/d46d24/ |
+%s/f7ca88/ab7c1d/ |
+%s/a1b56c/529431/ |
+%s/86c1b9/3e9477/ |
+%s/7cafc2/5687ab/ |
 %s/ba8baf/7c72ab/ |
-%s/a16946/ab80a4/ |
+%s/a16946/ab73a2/ |
 
 %s/Character",    s:gui08, "", s:cterm08/Character",    s:gui0A, "", s:cterm0A/ |
 %s/Cursor",        s:gui00, s:gui05, s:cterm00, s:cterm05/Cursor",        s:gui00, s:gui0A, s:cterm00, s:cterm0A/ |
+%s/CursorLineNr",  s:gui04, s:gui01, s:cterm04, s:cterm01/CursorLineNr",  s:gui00, s:gui03, s:cterm00, s:cterm03/ |
 %s/Identifier",   s:gui08, "", s:cterm08, "", "none/Identifier",   s:gui0A, "", s:cterm0A, "", "bold/ |
 %s/LineNr",        s:gui03, s:gui01, s:cterm03/LineNr",        s:gui04, s:gui01, s:cterm04/ |
+%s/MatchParen",    "", s:gui03, "", s:cterm03/MatchParen",    s:gui00, s:gui03, s:cterm00, s:cterm03/ |
 %s/Search",        s:gui03, s:gui0A, s:cterm03, s:cterm0A/Search",        s:gui00, s:gui04, s:cterm00, s:cterm04/ |
 %s/statusline",    s:gui04, s:gui02, s:cterm04, s:cterm02/statusline",    s:gui00, s:gui0A, s:cterm00, s:cterm0A/ |
 %s/StatusLineNC",  s:gui03, s:gui01, s:cterm03, s:cterm01/StatusLineNC",  s:gui05, s:gui01, s:cterm05, s:cterm01/ |
@@ -57,14 +59,14 @@ normal =gg
 %s#d8/d8/d8#bf/a5/80# |
 %s#e8/e8/e8#e8/d0/ae# |
 %s#f8/f8/f8#ff/f2/e0# |
-%s#ab/46/42#d4/59/63# |
-%s#dc/96/56#d4/6d/59# |
-%s#f7/ca/88#bf/95/3f# |
-%s#a1/b5/6c#63/94/4a# |
-%s#86/c1/b9#56/94/7f# |
-%s#7c/af/c2#60/97/bf# |
+%s#ab/46/42#d4/46/52# |
+%s#dc/96/56#d4/6d/24# |
+%s#f7/ca/88#ab/7c/1d# |
+%s#a1/b5/6c#52/94/31# |
+%s#86/c1/b9#3e/94/77# |
+%s#7c/af/c2#56/87/ab# |
 %s#ba/8b/af#7c/72/ab# |
-%s#a1/69/46#ab/80/a4# |
+%s#a1/69/46#ab/73/a2# |
 
 %s/181818/1f130d/ge |
 %s/383838/523a29/g |
@@ -72,5 +74,5 @@ normal =gg
 %s/f8f8f8/fff2e0/ge |
 
 call append(123,["",
-"echo -ne '\\e]12;#bf953f\\a'"])
+"echo -ne '\\e]12;#ab7c1d\\a'"])
 ```
