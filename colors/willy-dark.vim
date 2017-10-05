@@ -18,7 +18,7 @@ let s:g6 = 'e8d0ae'
 let s:g7 = 'fff2e0'
 let s:g8 = 'ff5a54'
 let s:g9 = 'eb8f4e'
-let s:gA = 'ebd43b'
+let s:gA = 'ebd14d'
 let s:gB = '5c9e65'
 let s:gC = '5c9e99'
 let s:gD = '75aac9'
@@ -48,7 +48,7 @@ if has('nvim')
   let g:terminal_color_0 =  '#1f130d'
   let g:terminal_color_1 =  '#ff5a54'
   let g:terminal_color_2 =  '#5c9e65'
-  let g:terminal_color_3 =  '#ebd43b'
+  let g:terminal_color_3 =  '#ebd14d'
   let g:terminal_color_4 =  '#75aac9'
   let g:terminal_color_5 =  '#a687c9'
   let g:terminal_color_6 =  '#5c9e99'
@@ -152,7 +152,7 @@ cal <sid>h('VertSplit'        , s:g2 , s:g2 , s:t2 , s:t2 , 'none'      , ''  )
 "=== SYNTAX HIGHLIGHTING ======================================================
 
 " RED for warning elements
-cal <sid>h('DiffDelete'       , s:g8 , s:g1 , s:t8 , s:t1 , 'none'      , ''  )
+cal <sid>h('DiffDelete'       , s:g0 , s:g8 , s:t0 , s:t8 , 'none'      , ''  )
 cal <sid>h('Error'            , s:g0 , s:g8 , s:t0 , s:t8 , 'none'      , ''  )
 cal <sid>h('ErrorMsg'         , s:g8 , s:g0 , s:t8 , s:t0 , 'none'      , ''  )
 cal <sid>h('SpellBad'         , ''   , ''   , s:t8 , s:t0 , 'undercurl' , s:g8)
@@ -177,7 +177,7 @@ cal <sid>h('Todo'             , s:g0 , s:gA , s:t0 , s:tA , 'none'      , ''  )
 
 " GREEN for action elements
 cal <sid>h('Conditional'      , s:gB , ''   , s:tB , ''   , ''          , ''  )
-cal <sid>h('DiffAdd'          , s:gB , s:g1 , s:tB , s:t1 , 'none'      , ''  )
+cal <sid>h('DiffAdd'          , s:g0 , s:gB , s:tB , s:t0 , 'none'      , ''  )
 cal <sid>h('Exception'        , s:gB , ''   , s:tB , ''   , ''          , ''  )
 cal <sid>h('Keyword'          , s:gB , ''   , s:tB , ''   , ''          , ''  )
 cal <sid>h('Label'            , s:gB , ''   , s:tB , ''   , ''          , ''  )
