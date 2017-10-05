@@ -93,11 +93,11 @@ endfun
 "=== BASIC HIGHLIGHTING =======================================================
 
 " cursor + status line + selected tab
-cal <sid>h('Cursor'           , s:g0 , s:g , s:t0 , s:t , 'none'      , ''  )
-cal <sid>h('StatusLine'       , s:g0 , s:g , s:t0 , s:t , 'none'      , ''  )
-cal <sid>h('StatusLineTerm'   , s:g0 , s:g , s:t0 , s:t , 'none'      , ''  )
-cal <sid>h('TabLineSel'       , s:g0 , s:g , s:t0 , s:t , 'none'      , ''  )
-cal <sid>h('TermCursor'       , s:g0 , s:g , s:t0 , s:t , 'none'      , ''  )
+cal <sid>h('Cursor'           , s:g0 , s:gA , s:t0 , s:tA , 'none'      , ''  )
+cal <sid>h('StatusLine'       , s:g0 , s:gA , s:t0 , s:tA , 'none'      , ''  )
+cal <sid>h('StatusLineTerm'   , s:g0 , s:gA , s:t0 , s:tA , 'none'      , ''  )
+cal <sid>h('TabLineSel'       , s:g0 , s:gA , s:t0 , s:tA , 'none'      , ''  )
+cal <sid>h('TermCursor'       , s:g0 , s:gA , s:t0 , s:tA , 'none'      , ''  )
 
 " current line number
 cal <sid>h('CursorLineNr'     , s:g0 , s:g3 , s:t0 , s:t3 , 'none'      , ''  )
