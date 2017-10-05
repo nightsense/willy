@@ -52,9 +52,7 @@ call plug#end()
 
 <p>See the <a href="https://github.com/nightsense/nightshell">nightshell</a> repository, which allows willy to be used in a variety of terminal applications.</p>
 
-<h2 id="design">design</h2>
-
-<h3 id="palette">palette</h3>
+<h2 id="palette">palette</h2>
 
 <p>willy consists of 16 colours:</p>
 
@@ -120,8 +118,6 @@ call plug#end()
     </tr>
   </tbody>
 </table>
-
-<h3 id="syntax-highlighting-logic">syntax highlighting logic</h3>
 
 <p><img src="http://www.colorhexa.com/ff453f.png" height="24" width="42" />
 <strong>Red</strong>, the colour of alarm, is used for <strong>warning elements</strong>, including error messages, misspellings, and diff deletions.</p>
