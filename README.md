@@ -58,7 +58,7 @@ call plug#end()
 
 <ul>
   <li>8 theme-distinct <strong>base colours</strong></li>
-  <li>8 standard <strong>accent colours</strong> (shared by members of the “nightsense theme family”), for syntax highlighting
+  <li>8 standard <strong>accent colours</strong> (shared by members of the “nightsense theme family”) for syntax highlighting
     <ul>
       <li>hue selection at the scale of 1/12 (30°) colour wheel intervals, followed by 1/12 subinterval adjustments</li>
       <li>value and saturation tuned for light backgrounds, then saturation lowered for dark backgrounds</li>
