@@ -57,12 +57,11 @@ call plug#end()
 <p>willy consists of 16 colours:</p>
 
 <ul>
-  <li>8 theme-distinct <strong>base colours</strong>, which meet the <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html#visual-audio-contrast-contrast-73-head">3:1 ISO standard</a> for text/background contrast ratio</li>
+  <li>8 theme-distinct <strong>base colours</strong></li>
   <li>8 standard <strong>accent colours</strong> (shared by members of the “nightsense theme family”), for syntax highlighting
     <ul>
       <li>hue selection at the scale of 1/12 (30°) colour wheel intervals, followed by 1/12 subinterval adjustments</li>
       <li>value and saturation tuned for light backgrounds, then saturation lowered for dark backgrounds</li>
-      <li>again, ISO contrast ratio was observed</li>
     </ul>
   </li>
 </ul>
@@ -88,8 +87,8 @@ call plug#end()
     </tr>
     <tr>
       <td style="text-align: right"><img src="http://www.colorhexa.com/542f15.png" height="24" width="42" /> <code class="highlighter-rouge">542f15</code> </td>
-      <td style="text-align: center"><img src="http://www.colorhexa.com/ebce3b.png" height="24" width="42" /> <code class="highlighter-rouge">ebce3b</code> </td>
-      <td style="text-align: left"><img src="http://www.colorhexa.com/ebd463.png" height="24" width="42" /> <code class="highlighter-rouge">ebd463</code></td>
+      <td style="text-align: center"><img src="http://www.colorhexa.com/ebc83b.png" height="24" width="42" /> <code class="highlighter-rouge">ebc83b</code> </td>
+      <td style="text-align: left"><img src="http://www.colorhexa.com/ebcc4e.png" height="24" width="42" /> <code class="highlighter-rouge">ebcc4e</code></td>
     </tr>
     <tr>
       <td style="text-align: right"><img src="http://www.colorhexa.com/754727.png" height="24" width="42" /> <code class="highlighter-rouge">754727</code> </td>
@@ -113,8 +112,8 @@ call plug#end()
     </tr>
     <tr>
       <td style="text-align: right"><img src="http://www.colorhexa.com/ffe6d4.png" height="24" width="42" /> <code class="highlighter-rouge">ffe6d4</code> </td>
-      <td style="text-align: center"><img src="http://www.colorhexa.com/e05e8e.png" height="24" width="42" /> <code class="highlighter-rouge">e05e8e</code> </td>
-      <td style="text-align: left"><img src="http://www.colorhexa.com/e082a4.png" height="24" width="42" /> <code class="highlighter-rouge">e082a4</code></td>
+      <td style="text-align: center"><img src="http://www.colorhexa.com/e05e89.png" height="24" width="42" /> <code class="highlighter-rouge">e05e89</code> </td>
+      <td style="text-align: left"><img src="http://www.colorhexa.com/e082a1.png" height="24" width="42" /> <code class="highlighter-rouge">e082a1</code></td>
     </tr>
   </tbody>
 </table>
@@ -125,14 +124,14 @@ call plug#end()
 <p><img src="http://www.colorhexa.com/eb6d13.png" height="24" width="42" />
 <strong>Orange</strong> is the colour of fire, which serves as a preliminary to many practical activities. Orange is therefore used for <strong>preliminary elements</strong>, such as preprocessor commands (which prepare data to be handled by another program), incremental searching (that is, a search term in the process of being typed), titles, and miscapitalized words.</p>
 
-<p><img src="http://www.colorhexa.com/ebce3b.png" height="24" width="42" />
+<p><img src="http://www.colorhexa.com/ebc83b.png" height="24" width="42" />
 <strong>Yellow</strong>, the classic highlighting colour, is applied to elements that are not warnings yet should draw attention with high visibility. These <strong>highlighted elements</strong> include search results, task tags (<code class="highlighter-rouge">TODO</code>, <code class="highlighter-rouge">FIXME</code>…), and diff changes.</p>
 
 <p><img src="http://www.colorhexa.com/259433.png" height="24" width="42" />
 <strong>Green</strong>, the colour that says “go ahead, proceed with the task at hand”, is used for positive <strong>action elements</strong>, such as statements (if/then, while/do, case…), mode indicators (insert, visual…), vim user prompts, and diff additions.</p>
 
 <p><img src="http://www.colorhexa.com/009488.png" height="24" width="42" />
-<strong>Teal</strong> is named after the “common teal”, a kind of duck, thus connecting this colour with the concept of “species”, which is a means of classifying life into very specific types. Teal is therefore used for specifying <strong>object types</strong>, such as data type (boolean, integer, string…) or storage class (static, volatile…), as well as mislocalized words (that is, words that are not misspelled but of the wrong type, namely a foreign type).</p>
+<strong>Teal</strong> is named after the “common teal”, a kind of duck, thus connecting this colour with the concept of “species”, which is a means of classifying life into very specific types. Teal is therefore used for specifying <strong>object types</strong>, such as data type (boolean, integer, string…) or storage class (static, volatile…), as well as mislocalized words (that is, words that are not misspelled but of the wrong type, namely a foreign locale type).</p>
 
 <p><img src="http://www.colorhexa.com/308bbf.png" height="24" width="42" />
 <strong>Blue</strong>, a colour of calm stability, is used for <strong>constants</strong>, which come in the form of boolean values, integers, floating-point numbers, characters, and strings.</p>
@@ -140,5 +139,5 @@ call plug#end()
 <p><img src="http://www.colorhexa.com/8c60bf.png" height="24" width="42" />
 <strong>Purple</strong>, often associated with rare purple dyes historically produced for special works of art, is used for <strong>special text</strong>, including special characters (standalone or within syntax units), vim tags, and debugging statements. Rarely-used words are also marked, allowing the writer to consider whether such a specially uncommon word is appropriate.</p>
 
-<p><img src="http://www.colorhexa.com/e05e8e.png" height="24" width="42" />
+<p><img src="http://www.colorhexa.com/e05e89.png" height="24" width="42" />
 <strong>Pink</strong>, the colour of spring blossoms, is used for <strong>object names</strong>, including the names of variables and functions. To code is to bring countless objects blossoming into existence as one types their names.</p>

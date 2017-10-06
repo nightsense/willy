@@ -18,12 +18,12 @@ let s:g6 = 'e0b596'
 let s:g7 = 'ffe6d4'
 let s:g8 = 'eb6663'
 let s:g9 = 'eb8f4e'
-let s:gA = 'ebd463'
+let s:gA = 'ebcc4e'
 let s:gB = '63946a'
 let s:gC = '56948f'
 let s:gD = '609cbf'
 let s:gE = '9e80bf'
-let s:gF = 'e082a4'
+let s:gF = 'e082a1'
 
 " terminal colours
 let s:t0 = '00'
@@ -48,7 +48,7 @@ if has('nvim')
   let g:terminal_color_0 =  '#2b1607'
   let g:terminal_color_1 =  '#eb6663'
   let g:terminal_color_2 =  '#63946a'
-  let g:terminal_color_3 =  '#ebd463'
+  let g:terminal_color_3 =  '#ebcc4e'
   let g:terminal_color_4 =  '#609cbf'
   let g:terminal_color_5 =  '#9e80bf'
   let g:terminal_color_6 =  '#56948f'
@@ -59,7 +59,7 @@ if has('nvim')
   let g:terminal_color_11 = '#542f15'
   let g:terminal_color_12 = '#94623e'
   let g:terminal_color_13 = '#e0b596'
-  let g:terminal_color_14 = '#e082a4'
+  let g:terminal_color_14 = '#e082a1'
   let g:terminal_color_15 = '#ffe6d4'
 endif
 
