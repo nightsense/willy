@@ -119,26 +119,26 @@ call plug#end()
   </tbody>
 </table>
 
-<p><img src="http://www.colorhexa.com/eb6663.png" height="24" width="42" />
+<p><img src="http://www.colorhexa.com/eb403a.png" height="24" width="42" />
 <strong>Red</strong>, the colour of alarm, is used for <strong>warning elements</strong>, including error messages, misspellings, and diff deletions.</p>
 
-<p><img src="http://www.colorhexa.com/eb8f4e.png" height="24" width="42" />
+<p><img src="http://www.colorhexa.com/eb6d13.png" height="24" width="42" />
 <strong>Orange</strong> is the colour of fire, which serves as a preliminary to many practical activities. Orange is therefore used for <strong>preliminary elements</strong>, such as preprocessor commands (which prepare data to be handled by another program), incremental searching (that is, a search term in the process of being typed), titles, and miscapitalized words.</p>
 
-<p><img src="http://www.colorhexa.com/ebd463.png" height="24" width="42" />
+<p><img src="http://www.colorhexa.com/ebce3b.png" height="24" width="42" />
 <strong>Yellow</strong>, the classic highlighting colour, is applied to elements that are not warnings yet should draw attention with high visibility. These <strong>highlighted elements</strong> include search results, task tags (<code class="highlighter-rouge">TODO</code>, <code class="highlighter-rouge">FIXME</code>…), and diff changes.</p>
 
-<p><img src="http://www.colorhexa.com/63946a.png" height="24" width="42" />
+<p><img src="http://www.colorhexa.com/259433.png" height="24" width="42" />
 <strong>Green</strong>, the colour that says “go ahead, proceed with the task at hand”, is used for positive <strong>action elements</strong>, such as statements (if/then, while/do, case…), mode indicators (insert, visual…), vim user prompts, and diff additions.</p>
 
-<p><img src="http://www.colorhexa.com/56948f.png" height="24" width="42" />
+<p><img src="http://www.colorhexa.com/009488.png" height="24" width="42" />
 <strong>Teal</strong> is named after the “common teal”, a kind of duck, thus connecting this colour with the concept of “species”, which is a means of classifying life into very specific types. Teal is therefore used for specifying <strong>object types</strong>, such as data type (boolean, integer, string…) or storage class (static, volatile…), as well as mislocalized words (that is, words that are not misspelled but of the wrong type, namely a foreign type).</p>
 
-<p><img src="http://www.colorhexa.com/609cbf.png" height="24" width="42" />
+<p><img src="http://www.colorhexa.com/308bbf.png" height="24" width="42" />
 <strong>Blue</strong>, a colour of calm stability, is used for <strong>constants</strong>, which come in the form of boolean values, integers, floating-point numbers, characters, and strings.</p>
 
-<p><img src="http://www.colorhexa.com/9e80bf.png" height="24" width="42" />
+<p><img src="http://www.colorhexa.com/8c60bf.png" height="24" width="42" />
 <strong>Purple</strong>, often associated with rare purple dyes historically produced for special works of art, is used for <strong>special text</strong>, including special characters (standalone or within syntax units), vim tags, and debugging statements. Rarely-used words are also marked, allowing the writer to consider whether such a specially uncommon word is appropriate.</p>
 
-<p><img src="http://www.colorhexa.com/e082a4.png" height="24" width="42" />
+<p><img src="http://www.colorhexa.com/e05e8e.png" height="24" width="42" />
 <strong>Pink</strong>, the colour of spring blossoms, is used for <strong>object names</strong>, including the names of variables and functions. To code is to bring countless objects blossoming into existence as one types their names.</p>
