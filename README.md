@@ -84,12 +84,12 @@ call plug#end()
     <tr>
       <td style="text-align: right"><img src="http://www.colorhexa.com/402d20.png" height="24" width="42" /> <code class="highlighter-rouge">402d20</code> </td>
       <td style="text-align: center"><img src="http://www.colorhexa.com/eb6d13.png" height="24" width="42" /> <code class="highlighter-rouge">eb6d13</code> </td>
-      <td style="text-align: left"><img src="http://www.colorhexa.com/eb843b.png" height="24" width="42" /> <code class="highlighter-rouge">eb843b</code></td>
+      <td style="text-align: left"><img src="http://www.colorhexa.com/eb8f4e.png" height="24" width="42" /> <code class="highlighter-rouge">eb8f4e</code></td>
     </tr>
     <tr>
       <td style="text-align: right"><img src="http://www.colorhexa.com/543c2a.png" height="24" width="42" /> <code class="highlighter-rouge">543c2a</code> </td>
       <td style="text-align: center"><img src="http://www.colorhexa.com/d4b411.png" height="24" width="42" /> <code class="highlighter-rouge">d4b411</code> </td>
-      <td style="text-align: left"><img src="http://www.colorhexa.com/d4ba35.png" height="24" width="42" /> <code class="highlighter-rouge">d4ba35</code></td>
+      <td style="text-align: left"><img src="http://www.colorhexa.com/d4c059.png" height="24" width="42" /> <code class="highlighter-rouge">d4c059</code></td>
     </tr>
     <tr>
       <td style="text-align: right"><img src="http://www.colorhexa.com/755944.png" height="24" width="42" /> <code class="highlighter-rouge">755944</code> </td>
@@ -122,10 +122,10 @@ call plug#end()
 <p><img src="http://www.colorhexa.com/eb6663.png" height="24" width="42" />
 <strong>Red</strong>, the colour of alarm, is used for <strong>warning elements</strong>, including error messages, misspellings, and diff deletions.</p>
 
-<p><img src="http://www.colorhexa.com/eb843b.png" height="24" width="42" />
+<p><img src="http://www.colorhexa.com/eb8f4e.png" height="24" width="42" />
 <strong>Orange</strong> is the colour of fire, which serves as a preliminary to many practical activities. Orange is therefore used for <strong>preliminary elements</strong>, such as preprocessor commands (which prepare data to be handled by another program), incremental searching (that is, a search term in the process of being typed), titles, and miscapitalized words.</p>
 
-<p><img src="http://www.colorhexa.com/d4ba35.png" height="24" width="42" />
+<p><img src="http://www.colorhexa.com/d4c059.png" height="24" width="42" />
 <strong>Yellow</strong>, the classic highlighting colour, is applied to elements that are not warnings yet should draw attention with high visibility. These <strong>highlighted elements</strong> include search results, task tags (<code class="highlighter-rouge">TODO</code>, <code class="highlighter-rouge">FIXME</code>…), and diff changes.</p>
 
 <p><img src="http://www.colorhexa.com/63946a.png" height="24" width="42" />
