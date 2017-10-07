@@ -18,7 +18,7 @@ let s:g6 = '402715'
 let s:g7 = '2b180b'
 let s:g8 = 'eb3a3a'
 let s:g9 = 'e06812'
-let s:gA = 'e0bf38'
+let s:gA = 'c9af42'
 let s:gB = '25942e'
 let s:gC = '0c9489'
 let s:gD = '3083bf'
@@ -48,7 +48,7 @@ if has('nvim')
   let g:terminal_color_0 =  '#fff3eb'
   let g:terminal_color_1 =  '#eb3a3a'
   let g:terminal_color_2 =  '#25942e'
-  let g:terminal_color_3 =  '#e0bf38'
+  let g:terminal_color_3 =  '#c9af42'
   let g:terminal_color_4 =  '#3083bf'
   let g:terminal_color_5 =  '#8760bf'
   let g:terminal_color_6 =  '#0c9489'
@@ -171,9 +171,9 @@ cal <sid>h('SpellCap'         , ''   , ''   , s:t0 , s:t9 , 'undercurl' , s:g9)
 cal <sid>h('Title'            , s:g9 , ''   , s:t9 , ''   , 'none'      , ''  )
 
 " YELLOW for highlighted elements
-cal <sid>h('DiffText'         , s:g7 , s:gA , s:t7 , s:tA , 'none'      , ''  )
-cal <sid>h('Search'           , s:g7 , s:gA , s:t7 , s:tA , 'none'      , ''  )
-cal <sid>h('Todo'             , s:g7 , s:gA , s:t7 , s:tA , 'none'      , ''  )
+cal <sid>h('DiffText'         , s:g6 , s:gA , s:t6 , s:tA , 'none'      , ''  )
+cal <sid>h('Search'           , s:g6 , s:gA , s:t6 , s:tA , 'none'      , ''  )
+cal <sid>h('Todo'             , s:g6 , s:gA , s:t6 , s:tA , 'none'      , ''  )
 
 " GREEN for action elements
 cal <sid>h('Conditional'      , s:gB , ''   , s:tB , ''   , ''          , ''  )
