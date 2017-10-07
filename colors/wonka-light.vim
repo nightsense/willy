@@ -43,6 +43,23 @@ let s:t6 = '13'
 let s:t9 = '09'
 let s:tF = '14'
 
+terminal_color_00 = col00
+terminal_color_01 = col08
+terminal_color_02 = col0B
+terminal_color_03 = col0A
+terminal_color_04 = col0D
+terminal_color_05 = col0E
+terminal_color_06 = col0C
+terminal_color_07 = col05
+terminal_color_08 = col03
+terminal_color_09 = col09
+terminal_color_10 = col01
+terminal_color_11 = col02
+terminal_color_12 = col04
+terminal_color_13 = col06
+terminal_color_14 = col0F
+terminal_color_15 = col07
+
 " neovim colours
 if has('nvim')
   let g:terminal_color_0 =  '#fff3eb'
@@ -69,9 +86,9 @@ endif
 " run theme-setting script if using terminal vim
 if !has('gui_running')
   execute 'silent !/bin/sh $HOME/.nightshell/wonka-light'
-  autocmd CursorMoved * execute 'if !exists("colors_name") |
-        \ let colors_name = "wonka-light" |
-        \ colorscheme wonka-light | endif'
+  "autocmd CursorMoved * execute 'if !exists("colors_name") |
+  "      \ let colors_name = "wonka-light" |
+  "      \ colorscheme wonka-light | endif'
 endif
 
 " clear old theme, activate new
