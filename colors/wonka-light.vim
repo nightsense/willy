@@ -1,4 +1,4 @@
-" willy-light, a vim colourscheme by nightsense
+" wonka-light, a vim colourscheme by nightsense
 "
 " generated with a theme template adapted from
 " base16-vim (https://github.com/chriskempson/base16-vim)
@@ -8,22 +8,22 @@
 "=== SET VARIABLES ============================================================
 
 " GUI colours
-let s:g0 = 'ffe6d4'
-let s:g1 = 'e0b596'
-let s:g2 = 'bf906f'
-let s:g3 = '94623e'
-let s:g4 = '754727'
-let s:g5 = '542f15'
-let s:g6 = '40210b'
-let s:g7 = '2b1607'
-let s:g8 = 'eb403a'
-let s:g9 = 'eb6d13'
-let s:gA = 'ebc83b'
-let s:gB = '259433'
-let s:gC = '009488'
-let s:gD = '308bbf'
-let s:gE = '8c60bf'
-let s:gF = 'e05e89'
+let s:g0 = 'fff3eb'
+let s:g1 = 'e0caba'
+let s:g2 = 'bf9a80'
+let s:g3 = '947056'
+let s:g4 = '75533b'
+let s:g5 = '543823'
+let s:g6 = '402715'
+let s:g7 = '2b180b'
+let s:g8 = 'eb3a3a'
+let s:g9 = 'e06812'
+let s:gA = 'e0bf38'
+let s:gB = '25942e'
+let s:gC = '0c9489'
+let s:gD = '3083bf'
+let s:gE = '8760bf'
+let s:gF = 'e05e85'
 
 " terminal colours
 let s:t0 = '00'
@@ -45,22 +45,22 @@ let s:tF = '17'
 
 " neovim colours
 if has('nvim')
-  let g:terminal_color_0 =  '#ffe6d4'
-  let g:terminal_color_1 =  '#eb403a'
-  let g:terminal_color_2 =  '#259433'
-  let g:terminal_color_3 =  '#ebc83b'
-  let g:terminal_color_4 =  '#308bbf'
-  let g:terminal_color_5 =  '#8c60bf'
-  let g:terminal_color_6 =  '#009488'
-  let g:terminal_color_7 =  '#542f15'
-  let g:terminal_color_8 =  '#94623e'
-  let g:terminal_color_9 =  '#eb6d13'
-  let g:terminal_color_10 = '#e0b596'
-  let g:terminal_color_11 = '#bf906f'
-  let g:terminal_color_12 = '#754727'
-  let g:terminal_color_13 = '#40210b'
-  let g:terminal_color_14 = '#e05e89'
-  let g:terminal_color_15 = '#2b1607'
+  let g:terminal_color_0 =  '#fff3eb'
+  let g:terminal_color_1 =  '#eb3a3a'
+  let g:terminal_color_2 =  '#25942e'
+  let g:terminal_color_3 =  '#e0bf38'
+  let g:terminal_color_4 =  '#3083bf'
+  let g:terminal_color_5 =  '#8760bf'
+  let g:terminal_color_6 =  '#0c9489'
+  let g:terminal_color_7 =  '#543823'
+  let g:terminal_color_8 =  '#947056'
+  let g:terminal_color_9 =  '#e06812'
+  let g:terminal_color_10 = '#e0caba'
+  let g:terminal_color_11 = '#bf9a80'
+  let g:terminal_color_12 = '#75533b'
+  let g:terminal_color_13 = '#402715'
+  let g:terminal_color_14 = '#e05e85'
+  let g:terminal_color_15 = '#2b180b'
 endif
 
 
@@ -68,16 +68,16 @@ endif
 
 " run theme-setting script if using terminal vim
 if !has('gui_running')
-  execute 'silent !/bin/sh $HOME/.nightshell/willy-light'
+  execute 'silent !/bin/sh $HOME/.nightshell/wonka-light'
   autocmd CursorMoved * execute 'if !exists("colors_name") |
-        \ let colors_name = "willy-light" |
-        \ colorscheme willy-light | endif'
+        \ let colors_name = "wonka-light" |
+        \ colorscheme wonka-light | endif'
 endif
 
 " clear old theme, activate new
 hi clear
 syntax reset
-let colors_name = 'willy-light'
+let colors_name = 'wonka-light'
 
 " highlighting function
 fun! <sid>h(x, gf, gb, cf, cb, a, s)
@@ -93,11 +93,11 @@ endfun
 "=== BASIC HIGHLIGHTING =======================================================
 
 " cursor + status line + selected tab
-cal <sid>h('Cursor'           , s:g0 , s:g4 , s:t0 , s:t4 , 'none'      , ''  )
+cal <sid>h('Cursor'           , s:g0 , s:g5 , s:t0 , s:t5 , 'none'      , ''  )
 cal <sid>h('StatusLine'       , s:g7 , s:gA , s:t7 , s:tA , 'none'      , ''  )
 cal <sid>h('StatusLineTerm'   , s:g7 , s:gA , s:t7 , s:tA , 'none'      , ''  )
 cal <sid>h('TabLineSel'       , s:g7 , s:gA , s:t7 , s:tA , 'none'      , ''  )
-cal <sid>h('TermCursor'       , s:g0 , s:g4 , s:t0 , s:t4 , 'none'      , ''  )
+cal <sid>h('TermCursor'       , s:g0 , s:g5 , s:t0 , s:t5 , 'none'      , ''  )
 
 " line numbers
 cal <sid>h('CursorLineNr'     , s:g0 , s:g3 , s:t0 , s:t3 , 'none'      , ''  )
@@ -136,6 +136,7 @@ cal <sid>h('TabLine'          , s:g4 , s:g1 , s:t4 , s:t1 , 'none'      , ''  )
 cal <sid>h('VisualNOS'        , s:g4 , s:g1 , s:t4 , s:t1 , 'none'      , ''  )
 
 " strongly highlighted background
+cal <sid>h('MatchParen'       , s:g6 , s:g2 , s:t6 , s:t2 , 'none'      , ''  )
 cal <sid>h('Pmenu'            , s:g6 , s:g2 , s:t6 , s:t2 , 'none'      , ''  )
 cal <sid>h('Visual'           , s:g6 , s:g2 , s:t6 , s:t2 , 'none'      , ''  )
 
@@ -171,7 +172,6 @@ cal <sid>h('Title'            , s:g9 , ''   , s:t9 , ''   , 'none'      , ''  )
 
 " YELLOW for highlighted elements
 cal <sid>h('DiffText'         , s:g7 , s:gA , s:t7 , s:tA , 'none'      , ''  )
-cal <sid>h('MatchParen'       , s:g7 , s:gA , s:t7 , s:tA , 'none'      , ''  )
 cal <sid>h('Search'           , s:g7 , s:gA , s:t7 , s:tA , 'none'      , ''  )
 cal <sid>h('Todo'             , s:g7 , s:gA , s:t7 , s:tA , 'none'      , ''  )
 
