@@ -68,9 +68,9 @@ call plug#end()
     <ul>
       <li>hues were selected at the scale of 1/12 (30°) colour wheel intervals, followed by 1/12 subinterval adjustments</li>
       <li>value and saturation were tuned for light backgrounds, then lowered for dark backgrounds</li>
-      <li>minimum 3:1 text/background contrast ratio (the <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html#visual-audio-contrast-contrast-73-head">ISO standard</a>) was observed</li>
     </ul>
   </li>
+  <li>all text/background contrast ratios meet the 3:1 (<a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html#visual-audio-contrast-contrast-73-head">ISO standard</a>)</li>
 </ul>
 
 <table>
