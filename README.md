@@ -5,7 +5,7 @@
 <h2 id="screenshots">screenshots</h2>
 
 <table>
-<tr><td align="center"><strong>wonka-<br />dark</strong></td><td align="center"><strong>wonka-<br />light</strong></td></tr>
+<tr><td align="center"><strong>wonka-dark</strong></td><td align="center"><strong>wonka-light</strong></td></tr>
 <tr>
 <td><img src="/img/screenshot-wonka-dark.png" alt="screenshot of the wonka-dark vim theme" width="288" /></td>
 <td align="center"><img src="/img/screenshot-wonka-light.png" alt="screenshot of the wonka-light vim theme" width="288" /></td>
