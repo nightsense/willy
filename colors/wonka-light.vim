@@ -36,12 +36,12 @@ let s:tB = '02'
 let s:tC = '06'
 let s:tD = '04'
 let s:tE = '05'
-let s:t1 = '18'
-let s:t2 = '19'
-let s:t4 = '20'
-let s:t6 = '21'
-let s:t9 = '16'
-let s:tF = '17'
+let s:t1 = '10'
+let s:t2 = '11'
+let s:t4 = '12'
+let s:t6 = '13'
+let s:t9 = '09'
+let s:tF = '14'
 
 " neovim colours
 if has('nvim')
