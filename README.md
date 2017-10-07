@@ -65,7 +65,8 @@ call plug#end()
   <li>8 standard <strong>accent colours</strong> (shared by members of the “nightsense theme family”) for syntax highlighting
     <ul>
       <li>hues were selected at the scale of 1/12 (30°) colour wheel intervals, followed by 1/12 subinterval adjustments</li>
-      <li>value and saturation were tuned for light backgrounds, then saturation was lowered for dark backgrounds</li>
+      <li>value and saturation were tuned for light backgrounds, then lowered for dark backgrounds</li>
+      <li>minimum 3:1 text/background contrast ratio (the <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html#visual-audio-contrast-contrast-73-head">ISO standard</a>) was observed</li>
     </ul>
   </li>
 </ul>
