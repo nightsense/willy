@@ -177,7 +177,7 @@ cal <sid>h('Todo'             , s:g0 , s:gA , s:t0 , s:tA , 'none'      , ''  )
 
 " GREEN for action elements
 cal <sid>h('Conditional'      , s:gB , ''   , s:tB , ''   , ''          , ''  )
-cal <sid>h('DiffAdd'          , s:g0 , s:gB , s:tB , s:t0 , 'none'      , ''  )
+cal <sid>h('DiffAdd'          , s:g0 , s:gB , s:t0 , s:tB , 'none'      , ''  )
 cal <sid>h('Exception'        , s:gB , ''   , s:tB , ''   , ''          , ''  )
 cal <sid>h('Keyword'          , s:gB , ''   , s:tB , ''   , ''          , ''  )
 cal <sid>h('Label'            , s:gB , ''   , s:tB , ''   , ''          , ''  )
