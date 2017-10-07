@@ -88,7 +88,7 @@ call plug#end()
     </tr>
     <tr>
       <td style="text-align: right"><img src="http://www.colorhexa.com/402715.png" height="24" width="42" /> <code class="highlighter-rouge">402715</code> </td>
-      <td style="text-align: center"><img src="http://www.colorhexa.com/e06812.png" height="24" width="42" /> <code class="highlighter-rouge">e06812</code> </td>
+      <td style="text-align: center"><img src="http://www.colorhexa.com/e07426.png" height="24" width="42" /> <code class="highlighter-rouge">e07426</code> </td>
       <td style="text-align: left"><img src="http://www.colorhexa.com/d48146.png" height="24" width="42" /> <code class="highlighter-rouge">d48146</code></td>
     </tr>
     <tr>
@@ -127,7 +127,7 @@ call plug#end()
 <p><img src="http://www.colorhexa.com/eb3a3a.png" height="24" width="42" />
 <strong>Red</strong>, the colour of alarm, is used for <strong>warning elements</strong>, including error messages, misspellings, and diff deletions.</p>
 
-<p><img src="http://www.colorhexa.com/e06812.png" height="24" width="42" />
+<p><img src="http://www.colorhexa.com/e07426.png" height="24" width="42" />
 <strong>Orange</strong> is the colour of fire, which serves as a preliminary to many practical activities. Orange is therefore used for <strong>preliminary elements</strong>, such as preprocessor commands (which prepare data to be handled by another program), incremental searching (that is, a search term in the process of being typed), titles, and miscapitalized words.</p>
 
 <p><img src="http://www.colorhexa.com/c9af42.png" height="24" width="42" />
