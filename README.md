@@ -5,18 +5,11 @@
 <h2 id="screenshots">screenshots</h2>
 
 <table>
-  <thead>
-    <tr>
-      <th style="text-align: center">wonka-dark</th>
-      <th style="text-align: center">wonka-light</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: center"><img src="/img/screenshot-wonka-dark.png" alt="screenshot of the wonka-dark vim theme" width="288" /></td>
-      <td style="text-align: center"><img src="/img/screenshot-wonka-light.png" alt="screenshot of the wonka-light vim theme" width="288" /></td>
-    </tr>
-  </tbody>
+<tr><td align="center"><strong>wonka-<br />dark</strong></td><td align="center"><strong>wonka-<br />light</strong></td></tr>
+<tr>
+<td><img src="/img/screenshot-wonka-dark.png" alt="screenshot of the wonka-dark vim theme" width="288" /></td>
+<td align="center"><img src="/img/screenshot-wonka-light.png" alt="screenshot of the wonka-light vim theme" width="288" /></td>
+</tr>
 </table>
 
 <blockquote>
