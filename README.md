@@ -70,7 +70,7 @@ call plug#end()
       <li>value and saturation were tuned for light backgrounds, then lowered for dark backgrounds</li>
     </ul>
   </li>
-  <li>all text/background contrast ratios meet the 3:1 (<a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html#visual-audio-contrast-contrast-73-head">ISO standard</a>)</li>
+  <li>all text/background contrast ratios meet the 3:1 <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html#visual-audio-contrast-contrast-73-head">ISO standard</a></li>
 </ul>
 
 <table>
