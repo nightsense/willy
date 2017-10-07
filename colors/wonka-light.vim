@@ -156,7 +156,7 @@ cal <sid>h('VertSplit'        , s:g2 , s:g2 , s:t2 , s:t2 , 'none'      , ''  )
 cal <sid>h('DiffDelete'       , s:g0 , s:g8 , s:t0 , s:t8 , 'none'      , ''  )
 cal <sid>h('Error'            , s:g0 , s:g8 , s:t0 , s:t8 , 'none'      , ''  )
 cal <sid>h('ErrorMsg'         , s:g8 , s:g0 , s:t8 , s:t0 , 'none'      , ''  )
-cal <sid>h('SpellBad'         , ''   , ''   , ''   , s:t8 , 'undercurl' , s:g8)
+cal <sid>h('SpellBad'         , ''   , ''   , s:t0 , s:t8 , 'undercurl' , s:g8)
 cal <sid>h('TooLong'          , s:g8 , ''   , s:t8 , ''   , ''          , ''  )
 cal <sid>h('WarningMsg'       , s:g8 , s:g0 , s:t8 , s:t0 , 'none'      , ''  )
 
@@ -167,7 +167,7 @@ cal <sid>h('Include'          , s:g9 , ''   , s:t9 , ''   , ''          , ''  )
 cal <sid>h('Macro'            , s:g9 , ''   , s:t9 , ''   , ''          , ''  )
 cal <sid>h('PreCondit'        , s:g9 , ''   , s:t9 , ''   , 'none'      , ''  )
 cal <sid>h('PreProc'          , s:g9 , ''   , s:t9 , ''   , 'none'      , ''  )
-cal <sid>h('SpellCap'         , ''   , ''   , ''   , s:t9 , 'undercurl' , s:g9)
+cal <sid>h('SpellCap'         , ''   , ''   , s:t0 , s:t9 , 'undercurl' , s:g9)
 cal <sid>h('Title'            , s:g9 , ''   , s:t9 , ''   , 'none'      , ''  )
 
 " YELLOW for highlighted elements
@@ -189,7 +189,7 @@ cal <sid>h('Repeat'           , s:gB , ''   , s:tB , ''   , ''          , ''  )
 cal <sid>h('Statement'        , s:gB , ''   , s:tB , ''   , 'none'      , ''  )
 
 " TEAL for object types
-cal <sid>h('SpellLocal'       , ''   , ''   , ''   , s:tC , 'undercurl' , s:gC)
+cal <sid>h('SpellLocal'       , ''   , ''   , s:t0 , s:tC , 'undercurl' , s:gC)
 cal <sid>h('Type'             , s:gC , ''   , s:tC , ''   , 'none'      , ''  )
 cal <sid>h('StorageClass'     , s:gC , ''   , s:tC , ''   , ''          , ''  )
 cal <sid>h('Structure'        , s:gC , ''   , s:tC , ''   , ''          , ''  )
@@ -210,7 +210,7 @@ cal <sid>h('Special'          , s:gE , ''   , s:tE , ''   , 'none'      , ''  )
 cal <sid>h('SpecialChar'      , s:gE , ''   , s:tE , ''   , ''          , ''  )
 cal <sid>h('SpecialComment'   , s:gE , ''   , s:tE , ''   , ''          , ''  )
 cal <sid>h('SpecialKey'       , s:gE , ''   , s:tE , ''   , 'none'      , ''  )
-cal <sid>h('SpellRare'        , ''   , ''   , ''   , s:tE , 'undercurl' , s:gE)
+cal <sid>h('SpellRare'        , ''   , ''   , s:t0 , s:tE , 'undercurl' , s:gE)
 cal <sid>h('Tag'              , s:gE , ''   , s:tE , ''   , ''          , ''  )
 
 " PINK for object names
