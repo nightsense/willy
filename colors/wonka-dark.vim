@@ -8,22 +8,22 @@
 "=== SET VARIABLES ============================================================
 
 " GUI colours
-let s:g0 = '2b180b'
-let s:g1 = '402715'
-let s:g2 = '543823'
-let s:g3 = '75533b'
-let s:g4 = '947056'
+let s:g0 = '2b1a0e'
+let s:g1 = '402a1b'
+let s:g2 = '543c2a'
+let s:g3 = '755944'
+let s:g4 = '947763'
 let s:g5 = 'bf9a80'
 let s:g6 = 'e0caba'
-let s:g7 = 'fff3eb'
-let s:g8 = 'e05f5f'
-let s:g9 = 'd48146'
-let s:gA = 'bda84f'
-let s:gB = '639467'
-let s:gC = '4a948e'
-let s:gD = '6097bf'
-let s:gE = '9a80bf'
-let s:gF = 'd47b95'
+let s:g7 = 'fff9f5'
+let s:g8 = 'd45959'
+let s:g9 = 'c97b42'
+let s:gA = 'd4b659'
+let s:gB = '5c8a60'
+let s:gC = '508a80'
+let s:gD = '5688ab'
+let s:gE = '8b779e'
+let s:gF = 'c97591'
 
 " terminal colours
 let s:t0 = '00'
@@ -45,22 +45,22 @@ let s:tF = '14'
 
 " neovim colours
 if has('nvim')
-  let g:terminal_color_0 =  '#2b180b'
-  let g:terminal_color_1 =  '#e05f5f'
-  let g:terminal_color_2 =  '#639467'
-  let g:terminal_color_3 =  '#bda84f'
-  let g:terminal_color_4 =  '#6097bf'
-  let g:terminal_color_5 =  '#9a80bf'
-  let g:terminal_color_6 =  '#4a948e'
+  let g:terminal_color_0 =  '#2b1a0e'
+  let g:terminal_color_1 =  '#d45959'
+  let g:terminal_color_2 =  '#5c8a60'
+  let g:terminal_color_3 =  '#d4b659'
+  let g:terminal_color_4 =  '#5688ab'
+  let g:terminal_color_5 =  '#8b779e'
+  let g:terminal_color_6 =  '#508a80'
   let g:terminal_color_7 =  '#bf9a80'
-  let g:terminal_color_8 =  '#75533b'
-  let g:terminal_color_9 =  '#d48146'
-  let g:terminal_color_10 = '#402715'
-  let g:terminal_color_11 = '#543823'
-  let g:terminal_color_12 = '#947056'
+  let g:terminal_color_8 =  '#755944'
+  let g:terminal_color_9 =  '#c97b42'
+  let g:terminal_color_10 = '#402a1b'
+  let g:terminal_color_11 = '#543c2a'
+  let g:terminal_color_12 = '#947763'
   let g:terminal_color_13 = '#e0caba'
-  let g:terminal_color_14 = '#d47b95'
-  let g:terminal_color_15 = '#fff3eb'
+  let g:terminal_color_14 = '#c97591'
+  let g:terminal_color_15 = '#fff9f5'
 endif
 
 
@@ -93,11 +93,11 @@ endfun
 "=== BASIC HIGHLIGHTING =======================================================
 
 " cursor + status line + selected tab
-cal <sid>h('Cursor'           , s:g0 , s:g5 , s:t0 , s:t5 , 'none'      , ''  )
+cal <sid>h('Cursor'           , s:g0 , s:g4 , s:t0 , s:t4 , 'none'      , ''  )
 cal <sid>h('StatusLine'       , s:g0 , s:gA , s:t0 , s:tA , 'none'      , ''  )
 cal <sid>h('StatusLineTerm'   , s:g0 , s:gA , s:t0 , s:tA , 'none'      , ''  )
 cal <sid>h('TabLineSel'       , s:g0 , s:gA , s:t0 , s:tA , 'none'      , ''  )
-cal <sid>h('TermCursor'       , s:g0 , s:g5 , s:t0 , s:t5 , 'none'      , ''  )
+cal <sid>h('TermCursor'       , s:g0 , s:g4 , s:t0 , s:t4 , 'none'      , ''  )
 
 " line numbers
 cal <sid>h('CursorLineNr'     , s:g0 , s:g3 , s:t0 , s:t3 , 'none'      , ''  )
