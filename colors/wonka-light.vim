@@ -70,7 +70,6 @@ endif
 if !has('gui_running')
   execute 'silent !/bin/sh $HOME/.nightshell/wonka-light'
   autocmd CursorMoved * execute 'if !exists("colors_name") |
-        \ let colors_name = "wonka-light" |
         \ colorscheme wonka-light | endif'
 endif
 
