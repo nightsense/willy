@@ -69,8 +69,12 @@ endif
 " run theme-setting script if using terminal vim
 if !has('gui_running')
   execute 'silent !/bin/sh $HOME/.nightshell/wonka-dark'
-  autocmd CursorMoved * execute 'if !exists("colors_name") |
-        \ colorscheme wonka-dark | endif'
+  augroup ThemeSet
+    autocmd!
+    autocmd CursorMoved * execute 'if !exists("colors_name") |
+      \ colorscheme wonka-dark | else |
+      \ augroup ThemeSet | autocmd! | augroup END | endif'
+  augroup END
 endif
 
 " clear old theme, activate new
