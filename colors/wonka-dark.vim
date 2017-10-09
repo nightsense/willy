@@ -8,13 +8,13 @@
 "=== SET VARIABLES ============================================================
 
 " GUI colours
-let s:g0 = '2b1a0e'
-let s:g1 = '402d20'
-let s:g2 = '543c2a'
-let s:g3 = '766559'
-let s:g4 = '947e6f'
-let s:g5 = 'bfa38f'
-let s:g6 = 'e0caba'
+let s:g0 = '2b1c12'
+let s:g1 = '403025'
+let s:g2 = '544438'
+let s:g3 = '756a61'
+let s:g4 = '94857b'
+let s:g5 = 'bfac9f'
+let s:g6 = 'e0d1c5'
 let s:g7 = 'fff9f5'
 let s:g8 = 'd45959'
 let s:g9 = 'c97b42'
@@ -45,20 +45,20 @@ let s:tF = '14'
 
 " neovim colours
 if has('nvim')
-  let g:terminal_color_0 =  '#2b1a0e'
+  let g:terminal_color_0 =  '#2b1c12'
   let g:terminal_color_1 =  '#d45959'
   let g:terminal_color_2 =  '#5c8a60'
   let g:terminal_color_3 =  '#d4b659'
   let g:terminal_color_4 =  '#5688ab'
   let g:terminal_color_5 =  '#8b779e'
   let g:terminal_color_6 =  '#508a80'
-  let g:terminal_color_7 =  '#bfa38f'
-  let g:terminal_color_8 =  '#766559'
+  let g:terminal_color_7 =  '#bfac9f'
+  let g:terminal_color_8 =  '#756a61'
   let g:terminal_color_9 =  '#c97b42'
-  let g:terminal_color_10 = '#402d20'
-  let g:terminal_color_11 = '#543c2a'
-  let g:terminal_color_12 = '#947e6f'
-  let g:terminal_color_13 = '#e0caba'
+  let g:terminal_color_10 = '#403025'
+  let g:terminal_color_11 = '#544438'
+  let g:terminal_color_12 = '#94857b'
+  let g:terminal_color_13 = '#e0d1c5'
   let g:terminal_color_14 = '#c97591'
   let g:terminal_color_15 = '#fff9f5'
 endif
@@ -157,14 +157,14 @@ cal <sid>h('DiffDelete'       , s:g0 , s:g8 , s:t0 , s:t8 , 'none'      , ''  )
 cal <sid>h('Error'            , s:g0 , s:g8 , s:t0 , s:t8 , 'none'      , ''  )
 cal <sid>h('ErrorMsg'         , s:g8 , s:g0 , s:t8 , s:t0 , 'none'      , ''  )
 cal <sid>h('SpellBad'         , ''   , ''   , s:t0 , s:t8 , 'undercurl' , s:g8)
-cal <sid>h('TooLong'          , s:g8 , ''   , s:t8 , ''   , ''          , ''  )
+cal <sid>h('TooLong'          , s:g8 , ''   , s:t8 , ''   , 'none'      , ''  )
 cal <sid>h('WarningMsg'       , s:g8 , s:g0 , s:t8 , s:t0 , 'none'      , ''  )
 
 " ORANGE for preliminary elements
 cal <sid>h('Define'           , s:g9 , ''   , s:t9 , ''   , 'none'      , ''  )
 cal <sid>h('IncSearch'        , s:g0 , s:g9 , s:t0 , s:t9 , 'none'      , ''  )
-cal <sid>h('Include'          , s:g9 , ''   , s:t9 , ''   , ''          , ''  )
-cal <sid>h('Macro'            , s:g9 , ''   , s:t9 , ''   , ''          , ''  )
+cal <sid>h('Include'          , s:g9 , ''   , s:t9 , ''   , 'none'      , ''  )
+cal <sid>h('Macro'            , s:g9 , ''   , s:t9 , ''   , 'none'      , ''  )
 cal <sid>h('PreCondit'        , s:g9 , ''   , s:t9 , ''   , 'none'      , ''  )
 cal <sid>h('PreProc'          , s:g9 , ''   , s:t9 , ''   , 'none'      , ''  )
 cal <sid>h('SpellCap'         , ''   , ''   , s:t0 , s:t9 , 'undercurl' , s:g9)
@@ -176,43 +176,43 @@ cal <sid>h('Search'           , s:g0 , s:gA , s:t0 , s:tA , 'none'      , ''  )
 cal <sid>h('Todo'             , s:g0 , s:gA , s:t0 , s:tA , 'none'      , ''  )
 
 " GREEN for action elements
-cal <sid>h('Conditional'      , s:gB , ''   , s:tB , ''   , ''          , ''  )
+cal <sid>h('Conditional'      , s:gB , ''   , s:tB , ''   , 'none'      , ''  )
 cal <sid>h('DiffAdd'          , s:g0 , s:gB , s:t0 , s:tB , 'none'      , ''  )
-cal <sid>h('Exception'        , s:gB , ''   , s:tB , ''   , ''          , ''  )
-cal <sid>h('Keyword'          , s:gB , ''   , s:tB , ''   , ''          , ''  )
-cal <sid>h('Label'            , s:gB , ''   , s:tB , ''   , ''          , ''  )
+cal <sid>h('Exception'        , s:gB , ''   , s:tB , ''   , 'none'      , ''  )
+cal <sid>h('Keyword'          , s:gB , ''   , s:tB , ''   , 'none'      , ''  )
+cal <sid>h('Label'            , s:gB , ''   , s:tB , ''   , 'none'      , ''  )
 cal <sid>h('ModeMsg'          , s:gB , ''   , s:tB , ''   , 'none'      , ''  )
 cal <sid>h('MoreMsg'          , s:gB , ''   , s:tB , ''   , 'none'      , ''  )
 cal <sid>h('Operator'         , s:gB , ''   , s:tB , ''   , 'none'      , ''  )
 cal <sid>h('Question'         , s:gB , ''   , s:tB , ''   , 'none'      , ''  )
-cal <sid>h('Repeat'           , s:gB , ''   , s:tB , ''   , ''          , ''  )
+cal <sid>h('Repeat'           , s:gB , ''   , s:tB , ''   , 'none'      , ''  )
 cal <sid>h('Statement'        , s:gB , ''   , s:tB , ''   , 'none'      , ''  )
 
 " TEAL for object types
 cal <sid>h('SpellLocal'       , ''   , ''   , s:t0 , s:tC , 'undercurl' , s:gC)
 cal <sid>h('Type'             , s:gC , ''   , s:tC , ''   , 'none'      , ''  )
-cal <sid>h('StorageClass'     , s:gC , ''   , s:tC , ''   , ''          , ''  )
-cal <sid>h('Structure'        , s:gC , ''   , s:tC , ''   , ''          , ''  )
-cal <sid>h('Typedef'          , s:gC , ''   , s:tC , ''   , ''          , ''  )
+cal <sid>h('StorageClass'     , s:gC , ''   , s:tC , ''   , 'none'      , ''  )
+cal <sid>h('Structure'        , s:gC , ''   , s:tC , ''   , 'none'      , ''  )
+cal <sid>h('Typedef'          , s:gC , ''   , s:tC , ''   , 'none'      , ''  )
 
 " BLUE for constants
-cal <sid>h('Boolean'          , s:gD , ''   , s:tD , ''   , ''          , ''  )
-cal <sid>h('Character'        , s:gD , ''   , s:tD , ''   , ''          , ''  )
+cal <sid>h('Boolean'          , s:gD , ''   , s:tD , ''   , 'none'      , ''  )
+cal <sid>h('Character'        , s:gD , ''   , s:tD , ''   , 'none'      , ''  )
 cal <sid>h('Constant'         , s:gD , ''   , s:tD , ''   , 'none'      , ''  )
-cal <sid>h('Float'            , s:gD , ''   , s:tD , ''   , ''          , ''  )
-cal <sid>h('Number'           , s:gD , ''   , s:tD , ''   , ''          , ''  )
-cal <sid>h('String'           , s:gD , ''   , s:tD , ''   , ''          , ''  )
+cal <sid>h('Float'            , s:gD , ''   , s:tD , ''   , 'none'      , ''  )
+cal <sid>h('Number'           , s:gD , ''   , s:tD , ''   , 'none'      , ''  )
+cal <sid>h('String'           , s:gD , ''   , s:tD , ''   , 'none'      , ''  )
 
 " PURPLE for special text
-cal <sid>h('Debug'            , s:gE , ''   , s:tE , ''   , ''          , ''  )
-cal <sid>h('Delimiter'        , s:gE , ''   , s:tE , ''   , ''          , ''  )
+cal <sid>h('Debug'            , s:gE , ''   , s:tE , ''   , 'none'      , ''  )
+cal <sid>h('Delimiter'        , s:gE , ''   , s:tE , ''   , 'none'      , ''  )
 cal <sid>h('Special'          , s:gE , ''   , s:tE , ''   , 'none'      , ''  )
-cal <sid>h('SpecialChar'      , s:gE , ''   , s:tE , ''   , ''          , ''  )
-cal <sid>h('SpecialComment'   , s:gE , ''   , s:tE , ''   , ''          , ''  )
+cal <sid>h('SpecialChar'      , s:gE , ''   , s:tE , ''   , 'none'      , ''  )
+cal <sid>h('SpecialComment'   , s:gE , ''   , s:tE , ''   , 'none'      , ''  )
 cal <sid>h('SpecialKey'       , s:gE , ''   , s:tE , ''   , 'none'      , ''  )
 cal <sid>h('SpellRare'        , ''   , ''   , s:t0 , s:tE , 'undercurl' , s:gE)
-cal <sid>h('Tag'              , s:gE , ''   , s:tE , ''   , ''          , ''  )
+cal <sid>h('Tag'              , s:gE , ''   , s:tE , ''   , 'none'      , ''  )
 
 " PINK for object names
-cal <sid>h('Function'         , s:gF , ''   , s:tF , ''   , ''          , ''  )
+cal <sid>h('Function'         , s:gF , ''   , s:tF , ''   , 'none'      , ''  )
 cal <sid>h('Identifier'       , s:gF , ''   , s:tF , ''   , 'none'      , ''  )
