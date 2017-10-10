@@ -80,6 +80,7 @@ endif
 " clear old theme, activate new
 hi clear
 syntax reset
+set background=light
 let colors_name = 'wonka-light'
 
 " highlighting function
