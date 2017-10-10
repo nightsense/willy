@@ -5,7 +5,7 @@
 " by Chris Kempson (http://chriskempson.com)
 
 
-"=== SET VARIABLES ============================================================
+"=== SET COLOUR VARIABLES =====================================================
 
 " GUI colours
 let s:g0 = 'fff9f5'
@@ -64,7 +64,7 @@ if has('nvim')
 endif
 
 
-"=== GENERAL PREPARATION ======================================================
+"=== OTHER PREPARATION ========================================================
 
 " run theme-setting script if using terminal vim
 if !has('gui_running')
@@ -74,18 +74,7 @@ endif
 " clear old theme
 hi clear
 syntax reset
-
-" activate new theme
 set background=light
-if !exists("colors_name")
-  augroup NightsenseThemeSet
-    autocmd!
-    autocmd CursorMoved * execute 'let colors_name = "wonka-light" |
-      \ colorscheme wonka-light |
-      \ if !exists("colors_name") | augroup NightsenseThemeSet | autocmd! |
-      \ augroup END | endif'
-  augroup END
-endif
 
 " highlighting function
 fun! <sid>h(x, gf, gb, cf, cb, a, s)
@@ -224,3 +213,7 @@ cal <sid>h('Tag'              , s:gE , ''   , s:tE , ''   , 'none'      , ''  )
 " PINK for object names
 cal <sid>h('Function'         , s:gF , ''   , s:tF , ''   , 'none'      , ''  )
 cal <sid>h('Identifier'       , s:gF , ''   , s:tF , ''   , 'none'      , ''  )
+
+
+"=== SET COLORS_NAME ==========================================================
+let colors_name = "wonka-light"
