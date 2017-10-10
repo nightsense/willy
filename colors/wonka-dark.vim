@@ -74,7 +74,15 @@ endif
 " clear old theme
 hi clear
 syntax reset
+
+" set new theme
 set background=dark
+augroup NightsenseThemeSet
+   autocmd!
+   autocmd CursorMoved * execute 'if !exists("colors_name") |
+         \ colorscheme wonka-dark | endif'
+augroup END
+let colors_name = 'wonka-dark'
 
 " highlighting function
 fun! <sid>h(x, gf, gb, cf, cb, a, s)
@@ -213,7 +221,3 @@ cal <sid>h('Tag'              , s:gE , ''   , s:tE , ''   , 'none'      , ''  )
 " PINK for object names
 cal <sid>h('Function'         , s:gF , ''   , s:tF , ''   , 'none'      , ''  )
 cal <sid>h('Identifier'       , s:gF , ''   , s:tF , ''   , 'none'      , ''  )
-
-
-"=== SET COLORS_NAME ==========================================================
-let colors_name = "wonka-dark"
