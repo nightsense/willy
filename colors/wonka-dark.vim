@@ -78,11 +78,12 @@ syntax reset
 " activate new theme
 set background=dark
 if !exists("colors_name")
-  augroup ThemeSet
+  augroup NightsenseThemeSet
     autocmd!
     autocmd CursorMoved * execute 'let colors_name = "wonka-dark" |
       \ colorscheme wonka-dark |
-      \ if !exists("colors_name") | augroup ThemeSet | autocmd! | augroup END | endif'
+      \ if !exists("colors_name") | augroup NightsenseThemeSet | autocmd! |
+      \ augroup END | endif'
   augroup END
 endif
 
