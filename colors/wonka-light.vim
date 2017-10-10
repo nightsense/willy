@@ -77,13 +77,14 @@ syntax reset
 
 " activate new theme
 set background=light
-augroup ThemeSet
-  autocmd!
-  autocmd CursorMoved * execute 'if !exists("colors_name") |
-    \ let colors_name = "wonka-light" |
-    \ colorscheme wonka-light | else |
-    \ augroup ThemeSet | autocmd! | augroup END | endif'
-augroup END
+if !exists("colors_name")
+  augroup ThemeSet
+    autocmd!
+    autocmd CursorMoved * execute 'let colors_name = "wonka-light" |
+      \ colorscheme wonka-light |
+      \ if !exists("colors_name") | augroup ThemeSet | autocmd! | augroup END | endif'
+  augroup END
+endif
 
 " highlighting function
 fun! <sid>h(x, gf, gb, cf, cb, a, s)
