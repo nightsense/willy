@@ -76,7 +76,7 @@ hi clear
 syntax reset
 
 " set new theme
-set background=dark
+set background=light
 augroup NightsenseThemeSet
    autocmd!
    autocmd CursorMoved * execute 'if !exists("colors_name") |
