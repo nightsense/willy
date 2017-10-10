@@ -114,8 +114,8 @@ call plug#end()
     </tr>
     <tr>
       <td style="text-align: right"><img src="http://www.colorhexa.com/bfac9f.png" height="24" width="42" /> <code class="highlighter-rouge">bfac9f</code> </td>
-      <td style="text-align: center"><img src="http://www.colorhexa.com/3083bf.png" height="24" width="42" /> <code class="highlighter-rouge">3083bf</code> </td>
-      <td style="text-align: left"><img src="http://www.colorhexa.com/4882ab.png" height="24" width="42" /> <code class="highlighter-rouge">4882ab</code></td>
+      <td style="text-align: center"><img src="http://www.colorhexa.com/207cbf.png" height="24" width="42" /> <code class="highlighter-rouge">207cbf</code> </td>
+      <td style="text-align: left"><img src="http://www.colorhexa.com/387cab.png" height="24" width="42" /> <code class="highlighter-rouge">387cab</code></td>
     </tr>
     <tr>
       <td style="text-align: right"><img src="http://www.colorhexa.com/e0d1c5.png" height="24" width="42" /> <code class="highlighter-rouge">e0d1c5</code> </td>
@@ -145,7 +145,7 @@ call plug#end()
 <p><img src="http://www.colorhexa.com/0d9e86.png" height="24" width="42" />
 <strong>Teal</strong> is named after the “common teal”, a kind of duck, thus connecting this colour with the concept of “species”, which is a means of classifying life into very specific types. Teal is therefore used for specifying <strong>object types</strong>, such as data type (boolean, integer, string…) or storage class (static, volatile…), as well as marking mislocalized words (that is, words that are not misspelled but of the wrong type, namely a foreign locale type).</p>
 
-<p><img src="http://www.colorhexa.com/3083bf.png" height="24" width="42" />
+<p><img src="http://www.colorhexa.com/207cbf.png" height="24" width="42" />
 <strong>Blue</strong>, a colour of calm stability, is used for <strong>constants</strong>, which come in the form of boolean values, integers, floating-point numbers, characters, and strings.</p>
 
 <p><img src="http://www.colorhexa.com/885bb5.png" height="24" width="42" />
