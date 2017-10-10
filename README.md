@@ -48,8 +48,6 @@ call plug#end()
   <li><code class="highlighter-rouge">colorscheme wonka-dark</code></li>
 </ul>
 
-<p>Note that the <code class="highlighter-rouge">background</code> setting doesn’t affect this theme.</p>
-
 <blockquote>
   <p>To assign themes to specific intervals of the day, try the <a href="https://github.com/nightsense/night-and-day">night-and-day</a> plugin.</p>
 </blockquote>
