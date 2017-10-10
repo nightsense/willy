@@ -109,8 +109,8 @@ call plug#end()
     </tr>
     <tr>
       <td style="text-align: right"><img src="http://www.colorhexa.com/94857b.png" height="24" width="42" /> <code class="highlighter-rouge">94857b</code> </td>
-      <td style="text-align: center"><img src="http://www.colorhexa.com/289e8a.png" height="24" width="42" /> <code class="highlighter-rouge">289e8a</code> </td>
-      <td style="text-align: left"><img src="http://www.colorhexa.com/508a80.png" height="24" width="42" /> <code class="highlighter-rouge">508a80</code></td>
+      <td style="text-align: center"><img src="http://www.colorhexa.com/1b9e88.png" height="24" width="42" /> <code class="highlighter-rouge">1b9e88</code> </td>
+      <td style="text-align: left"><img src="http://www.colorhexa.com/4f9e91.png" height="24" width="42" /> <code class="highlighter-rouge">4f9e91</code></td>
     </tr>
     <tr>
       <td style="text-align: right"><img src="http://www.colorhexa.com/bfac9f.png" height="24" width="42" /> <code class="highlighter-rouge">bfac9f</code> </td>
@@ -119,8 +119,8 @@ call plug#end()
     </tr>
     <tr>
       <td style="text-align: right"><img src="http://www.colorhexa.com/e0d1c5.png" height="24" width="42" /> <code class="highlighter-rouge">e0d1c5</code> </td>
-      <td style="text-align: center"><img src="http://www.colorhexa.com/8f69b5.png" height="24" width="42" /> <code class="highlighter-rouge">8f69b5</code> </td>
-      <td style="text-align: left"><img src="http://www.colorhexa.com/8b779e.png" height="24" width="42" /> <code class="highlighter-rouge">8b779e</code></td>
+      <td style="text-align: center"><img src="http://www.colorhexa.com/885bb5.png" height="24" width="42" /> <code class="highlighter-rouge">885bb5</code> </td>
+      <td style="text-align: left"><img src="http://www.colorhexa.com/9779b5.png" height="24" width="42" /> <code class="highlighter-rouge">9779b5</code></td>
     </tr>
     <tr>
       <td style="text-align: right"><img src="http://www.colorhexa.com/fff9f5.png" height="24" width="42" /> <code class="highlighter-rouge">fff9f5</code> </td>
@@ -142,13 +142,13 @@ call plug#end()
 <p><img src="http://www.colorhexa.com/289e31.png" height="24" width="42" />
 <strong>Green</strong>, the colour that says “go ahead, proceed with the task at hand”, is used for <strong>action elements</strong>, such as statements (if/then, while/do, case…), mode indicators (insert, visual…), vim user prompts, and diff additions.</p>
 
-<p><img src="http://www.colorhexa.com/289e8a.png" height="24" width="42" />
+<p><img src="http://www.colorhexa.com/1b9e88.png" height="24" width="42" />
 <strong>Teal</strong> is named after the “common teal”, a kind of duck, thus connecting this colour with the concept of “species”, which is a means of classifying life into very specific types. Teal is therefore used for specifying <strong>object types</strong>, such as data type (boolean, integer, string…) or storage class (static, volatile…), as well as marking mislocalized words (that is, words that are not misspelled but of the wrong type, namely a foreign locale type).</p>
 
 <p><img src="http://www.colorhexa.com/3083bf.png" height="24" width="42" />
 <strong>Blue</strong>, a colour of calm stability, is used for <strong>constants</strong>, which come in the form of boolean values, integers, floating-point numbers, characters, and strings.</p>
 
-<p><img src="http://www.colorhexa.com/8f69b5.png" height="24" width="42" />
+<p><img src="http://www.colorhexa.com/885bb5.png" height="24" width="42" />
 <strong>Purple</strong>, often associated with (historically) rare purple dyes produced for special works of art, is used for <strong>special text</strong>, including special characters (standalone or within syntax units), vim tags, and debugging statements. Rarely-used words are also marked, allowing the writer to consider whether such a specially uncommon word is appropriate.</p>
 
 <p><img src="http://www.colorhexa.com/e05e8a.png" height="24" width="42" />
