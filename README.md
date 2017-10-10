@@ -105,12 +105,12 @@ call plug#end()
     <tr>
       <td style="text-align: right"><img src="http://www.colorhexa.com/756a61.png" height="24" width="42" /> <code class="highlighter-rouge">756a61</code> </td>
       <td style="text-align: center"><img src="http://www.colorhexa.com/289e31.png" height="24" width="42" /> <code class="highlighter-rouge">289e31</code> </td>
-      <td style="text-align: left"><img src="http://www.colorhexa.com/508a55.png" height="24" width="42" /> <code class="highlighter-rouge">508a55</code></td>
+      <td style="text-align: left"><img src="http://www.colorhexa.com/458a4b.png" height="24" width="42" /> <code class="highlighter-rouge">458a4b</code></td>
     </tr>
     <tr>
       <td style="text-align: right"><img src="http://www.colorhexa.com/94857b.png" height="24" width="42" /> <code class="highlighter-rouge">94857b</code> </td>
-      <td style="text-align: center"><img src="http://www.colorhexa.com/1b9e88.png" height="24" width="42" /> <code class="highlighter-rouge">1b9e88</code> </td>
-      <td style="text-align: left"><img src="http://www.colorhexa.com/458a7e.png" height="24" width="42" /> <code class="highlighter-rouge">458a7e</code></td>
+      <td style="text-align: center"><img src="http://www.colorhexa.com/0d9e86.png" height="24" width="42" /> <code class="highlighter-rouge">0d9e86</code> </td>
+      <td style="text-align: left"><img src="http://www.colorhexa.com/2e8a7a.png" height="24" width="42" /> <code class="highlighter-rouge">2e8a7a</code></td>
     </tr>
     <tr>
       <td style="text-align: right"><img src="http://www.colorhexa.com/bfac9f.png" height="24" width="42" /> <code class="highlighter-rouge">bfac9f</code> </td>
@@ -142,7 +142,7 @@ call plug#end()
 <p><img src="http://www.colorhexa.com/289e31.png" height="24" width="42" />
 <strong>Green</strong>, the colour that says “go ahead, proceed with the task at hand”, is used for <strong>action elements</strong>, such as statements (if/then, while/do, case…), mode indicators (insert, visual…), vim user prompts, and diff additions.</p>
 
-<p><img src="http://www.colorhexa.com/1b9e88.png" height="24" width="42" />
+<p><img src="http://www.colorhexa.com/0d9e86.png" height="24" width="42" />
 <strong>Teal</strong> is named after the “common teal”, a kind of duck, thus connecting this colour with the concept of “species”, which is a means of classifying life into very specific types. Teal is therefore used for specifying <strong>object types</strong>, such as data type (boolean, integer, string…) or storage class (static, volatile…), as well as marking mislocalized words (that is, words that are not misspelled but of the wrong type, namely a foreign locale type).</p>
 
 <p><img src="http://www.colorhexa.com/3083bf.png" height="24" width="42" />
