@@ -15,7 +15,7 @@ let s:g3 = '756a61'
 let s:g4 = '94857b'
 let s:g5 = 'bfac9f'
 let s:g6 = 'e0d1c5'
-let s:g7 = 'fff9f5'
+let s:g7 = 'fff3eb'
 let s:g8 = 'e07070'
 let s:g9 = 'd48c59'
 let s:gA = 'bfad51'
@@ -60,7 +60,7 @@ if has('nvim')
   let g:terminal_color_12 = '#94857b'
   let g:terminal_color_13 = '#e0d1c5'
   let g:terminal_color_14 = '#c9759f'
-  let g:terminal_color_15 = '#fff9f5'
+  let g:terminal_color_15 = '#fff3eb'
 endif
 
 
