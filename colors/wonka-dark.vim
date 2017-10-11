@@ -200,7 +200,6 @@ cal <sid>h('Structure'        , s:gC , s:g0 , s:tC , s:t0 , 'reverse'   , ''  )
 cal <sid>h('Type'             , s:gC , s:g0 , s:tC , s:t0 , 'reverse'   , ''  )
 cal <sid>h('Typedef'          , s:gC , s:g0 , s:tC , s:t0 , 'reverse'   , ''  )
 
-
 " BLUE for constants
 cal <sid>h('Boolean'          , s:gD , ''   , s:tD , ''   , 'none'      , ''  )
 cal <sid>h('Character'        , s:gD , ''   , s:tD , ''   , 'none'      , ''  )
