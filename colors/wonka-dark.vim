@@ -176,9 +176,9 @@ cal <sid>h('SpellCap'         , ''   , ''   , s:t0 , s:t9 , 'undercurl' , s:g9)
 cal <sid>h('Title'            , s:g9 , ''   , s:t9 , ''   , 'none'      , ''  )
 
 " YELLOW for highlighted elements
-cal <sid>h('DiffText'         , s:g0 , s:gA , s:t0 , s:tA , 'none'      , ''  )
-cal <sid>h('Search'           , s:g0 , s:gA , s:t0 , s:tA , 'none'      , ''  )
-cal <sid>h('Todo'             , s:g0 , s:gA , s:t0 , s:tA , 'none'      , ''  )
+cal <sid>h('DiffText'         , s:gA , s:g0 , s:tA , s:t0 , 'reverse'   , ''  )
+cal <sid>h('Search'           , s:gA , s:g0 , s:tA , s:t0 , 'reverse'   , ''  )
+cal <sid>h('Todo'             , s:gA , s:g0 , s:tA , s:t0 , 'reverse'   , ''  )
 
 " GREEN for action elements
 cal <sid>h('Conditional'      , s:gB , ''   , s:tB , ''   , 'none'      , ''  )
@@ -195,10 +195,10 @@ cal <sid>h('Statement'        , s:gB , ''   , s:tB , ''   , 'none'      , ''  )
 
 " TEAL for object types
 cal <sid>h('SpellLocal'       , ''   , ''   , s:t0 , s:tC , 'undercurl' , s:gC)
-cal <sid>h('StorageClass'     , s:gC , ''   , s:tC , ''   , 'reverse'   , ''  )
-cal <sid>h('Structure'        , s:gC , ''   , s:tC , ''   , 'reverse'   , ''  )
-cal <sid>h('Type'             , s:gC , ''   , s:tC , ''   , 'reverse'   , ''  )
-cal <sid>h('Typedef'          , s:gC , ''   , s:tC , ''   , 'reverse'   , ''  )
+cal <sid>h('StorageClass'     , s:gC , s:g0 , s:tC , s:t0 , 'reverse'   , ''  )
+cal <sid>h('Structure'        , s:gC , s:g0 , s:tC , s:t0 , 'reverse'   , ''  )
+cal <sid>h('Type'             , s:gC , s:g0 , s:tC , s:t0 , 'reverse'   , ''  )
+cal <sid>h('Typedef'          , s:gC , s:g0 , s:tC , s:t0 , 'reverse'   , ''  )
 
 
 " BLUE for constants
