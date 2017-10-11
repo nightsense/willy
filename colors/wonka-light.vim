@@ -16,14 +16,14 @@ let s:g4 = '756a61'
 let s:g5 = '544438'
 let s:g6 = '403025'
 let s:g7 = '2b1c12'
-let s:g8 = 'eb3b3b'
-let s:g9 = 'e07426'
-let s:gA = 'e0b638'
-let s:gB = '289e31'
-let s:gC = '0d9e86'
-let s:gD = '207cbf'
-let s:gE = '885bb5'
-let s:gF = 'e05e8a'
+let s:g8 = 'f53d3d'
+let s:g9 = 'eb6200'
+let s:gA = 'ebca28'
+let s:gB = '009e00'
+let s:gC = '70e0cd'
+let s:gD = '0083e0'
+let s:gE = '964be0'
+let s:gF = 'eb4d9c'
 
 " terminal colours
 let s:t0 = '00'
@@ -46,20 +46,20 @@ let s:tF = '14'
 " neovim colours
 if has('nvim')
   let g:terminal_color_0 =  '#fff9f5'
-  let g:terminal_color_1 =  '#eb3b3b'
-  let g:terminal_color_2 =  '#289e31'
-  let g:terminal_color_3 =  '#e0b638'
-  let g:terminal_color_4 =  '#207cbf'
-  let g:terminal_color_5 =  '#885bb5'
-  let g:terminal_color_6 =  '#0d9e86'
+  let g:terminal_color_1 =  '#f53d3d'
+  let g:terminal_color_2 =  '#009e00'
+  let g:terminal_color_3 =  '#ebca28'
+  let g:terminal_color_4 =  '#0083e0'
+  let g:terminal_color_5 =  '#964be0'
+  let g:terminal_color_6 =  '#70e0cd'
   let g:terminal_color_7 =  '#544438'
   let g:terminal_color_8 =  '#94857b'
-  let g:terminal_color_9 =  '#e07426'
+  let g:terminal_color_9 =  '#eb6200'
   let g:terminal_color_10 = '#e0d1c5'
   let g:terminal_color_11 = '#bfac9f'
   let g:terminal_color_12 = '#756a61'
   let g:terminal_color_13 = '#403025'
-  let g:terminal_color_14 = '#e05e8a'
+  let g:terminal_color_14 = '#eb4d9c'
   let g:terminal_color_15 = '#2b1c12'
 endif
 
@@ -158,8 +158,8 @@ cal <sid>h('VertSplit'        , s:g2 , s:g2 , s:t2 , s:t2 , 'none'      , ''  )
 "=== SYNTAX HIGHLIGHTING ======================================================
 
 " RED for warning elements
-cal <sid>h('DiffDelete'       , s:g0 , s:g8 , s:t0 , s:t8 , 'none'      , ''  )
-cal <sid>h('Error'            , s:g0 , s:g8 , s:t0 , s:t8 , 'none'      , ''  )
+cal <sid>h('DiffDelete'       , s:g8 , s:g0 , s:t8 , s:t0 , 'reverse'   , ''  )
+cal <sid>h('Error'            , s:g8 , s:g0 , s:t8 , s:t0 , 'reverse'   , ''  )
 cal <sid>h('ErrorMsg'         , s:g8 , s:g0 , s:t8 , s:t0 , 'none'      , ''  )
 cal <sid>h('SpellBad'         , ''   , ''   , s:t0 , s:t8 , 'undercurl' , s:g8)
 cal <sid>h('TooLong'          , s:g8 , ''   , s:t8 , ''   , 'none'      , ''  )
@@ -167,7 +167,7 @@ cal <sid>h('WarningMsg'       , s:g8 , s:g0 , s:t8 , s:t0 , 'none'      , ''  )
 
 " ORANGE for preliminary elements
 cal <sid>h('Define'           , s:g9 , ''   , s:t9 , ''   , 'none'      , ''  )
-cal <sid>h('IncSearch'        , s:g0 , s:g9 , s:t0 , s:t9 , 'none'      , ''  )
+cal <sid>h('IncSearch'        , s:g9 , s:g0 , s:t9 , s:t0 , 'reverse'   , ''  )
 cal <sid>h('Include'          , s:g9 , ''   , s:t9 , ''   , 'none'      , ''  )
 cal <sid>h('Macro'            , s:g9 , ''   , s:t9 , ''   , 'none'      , ''  )
 cal <sid>h('PreCondit'        , s:g9 , ''   , s:t9 , ''   , 'none'      , ''  )
@@ -182,7 +182,7 @@ cal <sid>h('Todo'             , s:g5 , s:gA , s:t5 , s:tA , 'none'      , ''  )
 
 " GREEN for action elements
 cal <sid>h('Conditional'      , s:gB , ''   , s:tB , ''   , 'none'      , ''  )
-cal <sid>h('DiffAdd'          , s:g0 , s:gB , s:t0 , s:tB , 'none'      , ''  )
+cal <sid>h('DiffAdd'          , s:gB , s:g0 , s:tB , s:t0 , 'reverse'   , ''  )
 cal <sid>h('Exception'        , s:gB , ''   , s:tB , ''   , 'none'      , ''  )
 cal <sid>h('Keyword'          , s:gB , ''   , s:tB , ''   , 'none'      , ''  )
 cal <sid>h('Label'            , s:gB , ''   , s:tB , ''   , 'none'      , ''  )
@@ -194,11 +194,13 @@ cal <sid>h('Repeat'           , s:gB , ''   , s:tB , ''   , 'none'      , ''  )
 cal <sid>h('Statement'        , s:gB , ''   , s:tB , ''   , 'none'      , ''  )
 
 " TEAL for object types
+
 cal <sid>h('SpellLocal'       , ''   , ''   , s:t0 , s:tC , 'undercurl' , s:gC)
-cal <sid>h('StorageClass'     , s:gC , ''   , s:tC , ''   , 'none'      , ''  )
-cal <sid>h('Structure'        , s:gC , ''   , s:tC , ''   , 'none'      , ''  )
-cal <sid>h('Type'             , s:gC , ''   , s:tC , ''   , 'none'      , ''  )
-cal <sid>h('Typedef'          , s:gC , ''   , s:tC , ''   , 'none'      , ''  )
+cal <sid>h('StorageClass'     , s:gC , ''   , s:tC , ''   , 'reverse'   , ''  )
+cal <sid>h('Structure'        , s:gC , ''   , s:tC , ''   , 'reverse'   , ''  )
+cal <sid>h('Type'             , s:gC , s:g5 , s:tC , s:t5 , 'reverse'   , ''  )
+cal <sid>h('Typedef'          , s:gC , ''   , s:tC , ''   , 'reverse'   , ''  )
+
 
 " BLUE for constants
 cal <sid>h('Boolean'          , s:gD , ''   , s:tD , ''   , 'none'      , ''  )
