@@ -25,11 +25,11 @@
 <p>If you don’t have a preferred helper, consider trying <a href="https://github.com/junegunn/vim-plug">vim-plug</a>, which can be installed with:</p>
 
 <div class="highlighter-rouge"><pre class="highlight"><code>curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
-    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+  https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 </code></pre>
 </div>
 
-<p>To install wonka via vim-plug, add the following to the top of your <code class="highlighter-rouge">vimrc</code>:</p>
+<p>To install wonka using vim-plug, add the following to the top of your <code class="highlighter-rouge">vimrc</code>:</p>
 
 <div class="highlighter-rouge"><pre class="highlight"><code>call plug#begin('~/.vim/plugged')
 Plug 'nightsense/wonka'
@@ -109,8 +109,8 @@ call plug#end()
     </tr>
     <tr>
       <td style="text-align: right"><img src="http://www.colorhexa.com/94857b.png" height="24" width="42" /> <code class="highlighter-rouge">94857b</code> </td>
-      <td style="text-align: center"><img src="http://www.colorhexa.com/70e0cd.png" height="24" width="42" /> <code class="highlighter-rouge">70e0cd</code> </td>
-      <td style="text-align: left"><img src="http://www.colorhexa.com/4f9e91.png" height="24" width="42" /> <code class="highlighter-rouge">4f9e91</code></td>
+      <td style="text-align: center"><img src="http://www.colorhexa.com/009e84.png" height="24" width="42" /> <code class="highlighter-rouge">009e84</code> </td>
+      <td style="text-align: left"><img src="http://www.colorhexa.com/5c9e93.png" height="24" width="42" /> <code class="highlighter-rouge">5c9e93</code></td>
     </tr>
     <tr>
       <td style="text-align: right"><img src="http://www.colorhexa.com/bfac9f.png" height="24" width="42" /> <code class="highlighter-rouge">bfac9f</code> </td>
@@ -142,7 +142,7 @@ call plug#end()
 <p><img src="http://www.colorhexa.com/009e00.png" height="24" width="42" />
 <strong>Green</strong>, the colour that says “go ahead, proceed with the task at hand”, is used for <strong>action elements</strong>, such as statements (if/then, while/do, case…), mode indicators (insert, visual…), vim user prompts, and diff additions.</p>
 
-<p><img src="http://www.colorhexa.com/70e0cd.png" height="24" width="42" />
+<p><img src="http://www.colorhexa.com/009e84.png" height="24" width="42" />
 <strong>Teal</strong> is named after the “common teal”, a kind of duck, thus connecting this colour with the concept of “species”, which is a means of classifying life into very specific types. Teal is therefore used for specifying <strong>object types</strong>, such as data type (boolean, integer, string…) or storage class (static, volatile…), as well as marking mislocalized words (that is, words that are not misspelled but of the wrong type, namely a foreign locale type).</p>
 
 <p><img src="http://www.colorhexa.com/0083e0.png" height="24" width="42" />

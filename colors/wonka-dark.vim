@@ -20,7 +20,7 @@ let s:g8 = 'e07070'
 let s:g9 = 'd48c59'
 let s:gA = 'bfad51'
 let s:gB = '6a9e6a'
-let s:gC = '4f9e91'
+let s:gC = '5c9e93'
 let s:gD = '659fc9'
 let s:gE = '9f80bf'
 let s:gF = 'c9759f'
@@ -51,7 +51,7 @@ if has('nvim')
   let g:terminal_color_3 =  '#bfad51'
   let g:terminal_color_4 =  '#659fc9'
   let g:terminal_color_5 =  '#9f80bf'
-  let g:terminal_color_6 =  '#4f9e91'
+  let g:terminal_color_6 =  '#5c9e93'
   let g:terminal_color_7 =  '#bfac9f'
   let g:terminal_color_8 =  '#756a61'
   let g:terminal_color_9 =  '#d48c59'
@@ -195,10 +195,10 @@ cal <sid>h('Statement'        , s:gB , ''   , s:tB , ''   , 'none'      , ''  )
 
 " TEAL for object types
 cal <sid>h('SpellLocal'       , ''   , ''   , s:t0 , s:tC , 'undercurl' , s:gC)
-cal <sid>h('StorageClass'     , s:gC , s:g0 , s:tC , s:t0 , 'reverse'   , ''  )
-cal <sid>h('Structure'        , s:gC , s:g0 , s:tC , s:t0 , 'reverse'   , ''  )
-cal <sid>h('Type'             , s:gC , s:g0 , s:tC , s:t0 , 'reverse'   , ''  )
-cal <sid>h('Typedef'          , s:gC , s:g0 , s:tC , s:t0 , 'reverse'   , ''  )
+cal <sid>h('StorageClass'     , s:gC , ''   , s:tC , ''   , 'none'      , ''  )
+cal <sid>h('Structure'        , s:gC , ''   , s:tC , ''   , 'none'      , ''  )
+cal <sid>h('Type'             , s:gC , ''   , s:tC , ''   , 'none'      , ''  )
+cal <sid>h('Typedef'          , s:gC , ''   , s:tC , ''   , 'none'      , ''  )
 
 " BLUE for constants
 cal <sid>h('Boolean'          , s:gD , ''   , s:tD , ''   , 'none'      , ''  )
