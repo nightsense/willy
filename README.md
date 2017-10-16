@@ -95,8 +95,8 @@ call plug#end()
     </tr>
     <tr>
       <td style="text-align: right"><img src="http://www.colorhexa.com/544438.png" height="24" width="42" /> <code class="highlighter-rouge">544438</code> </td>
-      <td style="text-align: center"><img src="http://www.colorhexa.com/e0c438.png" height="24" width="42" /> <code class="highlighter-rouge">e0c438</code> </td>
-      <td style="text-align: left"><img src="http://www.colorhexa.com/c9b755.png" height="24" width="42" /> <code class="highlighter-rouge">c9b755</code></td>
+      <td style="text-align: center"><img src="http://www.colorhexa.com/d4b935.png" height="24" width="42" /> <code class="highlighter-rouge">d4b935</code> </td>
+      <td style="text-align: left"><img src="http://www.colorhexa.com/bfaf60.png" height="24" width="42" /> <code class="highlighter-rouge">bfaf60</code></td>
     </tr>
     <tr>
       <td style="text-align: right"><img src="http://www.colorhexa.com/756a61.png" height="24" width="42" /> <code class="highlighter-rouge">756a61</code> </td>
@@ -132,7 +132,7 @@ call plug#end()
 <p><img src="http://www.colorhexa.com/e06812.png" height="24" width="42" />
 <strong>Orange</strong>, the colour of fire, can be associated with the preliminary “warmup” phase of some activity; literally, this could be the heating-up of a hearth for forging, or a stove for cooking. Orange is therefore used for <strong>preliminary elements</strong>, such as preprocessor commands (which prepare data to be handled by another program), incremental searching (that is, a search term in the process of being typed), titles, and miscapitalized words.</p>
 
-<p><img src="http://www.colorhexa.com/e0c438.png" height="24" width="42" />
+<p><img src="http://www.colorhexa.com/d4b935.png" height="24" width="42" />
 <strong>Yellow</strong>, the classic highlighting colour, is applied to elements that are not warnings, yet should draw attention with high visibility. These <strong>highlighted elements</strong> include search results, task tags (<code class="highlighter-rouge">TODO</code>, <code class="highlighter-rouge">FIXME</code>…), and diff changes.</p>
 
 <p><img src="http://www.colorhexa.com/349e3d.png" height="24" width="42" />
