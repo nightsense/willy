@@ -62,15 +62,11 @@ call plug#end()
 
 <blockquote>
   <ul>
-    <li>accent colour hues were selected at the scale of 1/12 (30°) colour wheel intervals
-      <ul>
-        <li>6 of these hues were fine-tuned with 1/6 subinterval adjustments</li>
-      </ul>
-    </li>
+    <li>accent colour hues were selected at the scale of 1/12 (30°) colour wheel intervals, followed by 1/6 subinterval adjustments</li>
     <li>base colour hue was selected from among:
       <ul>
         <li>the 24 hues available at the scale of 1/24 (15°) colour wheel intervals</li>
-        <li>the additional 6 aforementioned fine-tuned hues</li>
+        <li>the additional fine-tuned accent hues</li>
       </ul>
     </li>
     <li>discrete intervals were also used for tuning colour saturations (1/24) and values (1/12)</li>
