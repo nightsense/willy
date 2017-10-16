@@ -90,8 +90,8 @@ call plug#end()
     </tr>
     <tr>
       <td style="text-align: right"><img src="http://www.colorhexa.com/403025.png" height="24" width="42" /> <code class="highlighter-rouge">403025</code> </td>
-      <td style="text-align: center"><img src="http://www.colorhexa.com/e06812.png" height="24" width="42" /> <code class="highlighter-rouge">e06812</code> </td>
-      <td style="text-align: left"><img src="http://www.colorhexa.com/e0894a.png" height="24" width="42" /> <code class="highlighter-rouge">e0894a</code></td>
+      <td style="text-align: center"><img src="http://www.colorhexa.com/e07426.png" height="24" width="42" /> <code class="highlighter-rouge">e07426</code> </td>
+      <td style="text-align: left"><img src="http://www.colorhexa.com/e0945e.png" height="24" width="42" /> <code class="highlighter-rouge">e0945e</code></td>
     </tr>
     <tr>
       <td style="text-align: right"><img src="http://www.colorhexa.com/544438.png" height="24" width="42" /> <code class="highlighter-rouge">544438</code> </td>
@@ -115,7 +115,7 @@ call plug#end()
     </tr>
     <tr>
       <td style="text-align: right"><img src="http://www.colorhexa.com/e0d1c5.png" height="24" width="42" /> <code class="highlighter-rouge">e0d1c5</code> </td>
-      <td style="text-align: center"><img src="http://www.colorhexa.com/975bb5.png" height="24" width="42" /> <code class="highlighter-rouge">975bb5</code> </td>
+      <td style="text-align: center"><img src="http://www.colorhexa.com/9c69b5.png" height="24" width="42" /> <code class="highlighter-rouge">9c69b5</code> </td>
       <td style="text-align: left"><img src="http://www.colorhexa.com/a688b5.png" height="24" width="42" /> <code class="highlighter-rouge">a688b5</code></td>
     </tr>
     <tr>
@@ -129,7 +129,7 @@ call plug#end()
 <p><img src="http://www.colorhexa.com/eb493a.png" height="24" width="42" />
 <strong>Red</strong>, the colour of alarm, is used for <strong>warning elements</strong>, including error messages, misspellings, and diff deletions.</p>
 
-<p><img src="http://www.colorhexa.com/e06812.png" height="24" width="42" />
+<p><img src="http://www.colorhexa.com/e07426.png" height="24" width="42" />
 <strong>Orange</strong>, the colour of fire, can be associated with the preliminary “warmup” phase of some activity; literally, this could be the heating-up of a hearth for forging, or a stove for cooking. Orange is therefore used for <strong>preliminary elements</strong>, such as preprocessor commands (which prepare data to be handled by another program), incremental searching (that is, a search term in the process of being typed), titles, and miscapitalized words.</p>
 
 <p><img src="http://www.colorhexa.com/d4b935.png" height="24" width="42" />
@@ -144,7 +144,7 @@ call plug#end()
 <p><img src="http://www.colorhexa.com/3f8abf.png" height="24" width="42" />
 <strong>Blue</strong>, a colour of calm stability, is used for <strong>constants</strong>, which come in the form of boolean values, integers, floating-point numbers, characters, and strings.</p>
 
-<p><img src="http://www.colorhexa.com/975bb5.png" height="24" width="42" />
+<p><img src="http://www.colorhexa.com/9c69b5.png" height="24" width="42" />
 <strong>Purple</strong>, often associated with (historically) rare purple dyes produced for special works of art, is used for <strong>special text</strong>, including special characters (standalone or within syntax units), vim tags, and debugging statements. Rarely-used words are also marked, allowing the writer to consider whether such a specially uncommon word is appropriate.</p>
 
 <p><img src="http://www.colorhexa.com/c96587.png" height="24" width="42" />
