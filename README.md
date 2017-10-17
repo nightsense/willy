@@ -54,9 +54,9 @@ call plug#end()
 
 <h3 id="options">options</h3>
 
-<p>You can tweak the following options by adding corresponding variables to your `vimrc’.</p>
+<p>You can tweak the following options by adding lines to your `vimrc’.</p>
 
-<p>Disable <strong>highlighted current line number</strong>:</p>
+<p>Disable highlighted <strong>current line number</strong>:</p>
 
 <div class="highlighter-rouge"><pre class="highlight"><code>let g:wonka_dark_CursorLineNr = 'off'
 let g:wonka_light_CursorLineNr = 'off'
