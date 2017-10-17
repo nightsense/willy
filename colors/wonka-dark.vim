@@ -67,8 +67,10 @@ endif
 "=== OTHER PREPARATION ========================================================
 
 " run theme-setting script if using terminal vim
-if !has('gui_running')
-  execute 'silent !/bin/sh $HOME/.nightshell/wonka-dark'
+if filereadable(expand('~/.nightshell/wonka-dark'))
+  if !has('gui_running')
+    execute 'silent !/bin/sh $HOME/.nightshell/wonka-dark'
+  endif
 endif
 
 " clear old theme
