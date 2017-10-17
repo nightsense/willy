@@ -52,6 +52,14 @@ call plug#end()
   <p>To assign themes to specific intervals of the day, try the <a href="https://github.com/nightsense/night-and-day">night-and-day</a> plugin.</p>
 </blockquote>
 
+<h3 id="options">options</h3>
+
+<p>You can tweak the following options by adding variables to your `vimrc’:</p>
+
+<ul>
+  <li>disable highlighting of current line number: <code class="highlighter-rouge">let g:wonka_dark_CursorLineNr = 'off'</code>, <code class="highlighter-rouge">let g:wonka_light_CursorLineNr = 'off'</code></li>
+</ul>
+
 <h2 id="terminal-vim">terminal vim</h2>
 
 <p>See the <a href="https://github.com/nightsense/nightshell">nightshell</a> repository, which allows wonka to be used in a variety of terminal applications.</p>

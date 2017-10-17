@@ -223,3 +223,13 @@ cal <sid>h('Tag'              , s:gE , ''   , s:tE , ''   , 'none'      , ''  )
 " PINK for object names
 cal <sid>h('Function'         , s:gF , ''   , s:tF , ''   , 'none'      , ''  )
 cal <sid>h('Identifier'       , s:gF , ''   , s:tF , ''   , 'none'      , ''  )
+
+
+"=== OPTIONS ==================================================================
+
+" disable highlighted CursorLineNr
+if exists('g:wonka_dark_CursorLineNr')
+if g:wonka_dark_CursorLineNr == 'off'
+cal <sid>h('CursorLineNr'     , s:g4 , s:g1 , s:t4 , s:t1 , 'none'      , ''  )
+endif
+endif
