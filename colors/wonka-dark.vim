@@ -233,3 +233,11 @@ if g:wonka_dark_CursorLineNr == 'off'
 cal <sid>h('CursorLineNr'     , s:g4 , s:g1 , s:t4 , s:t1 , 'none'      , ''  )
 endif
 endif
+
+" disable LineNr background altogether
+if exists('g:wonka_dark_LineNr')
+if g:wonka_dark_LineNr == 'off'
+cal <sid>h('CursorLineNr'     , s:g4 , s:g0 , s:t4 , s:t0 , 'none'      , ''  )
+cal <sid>h('LineNr'           , s:g4 , s:g0 , s:t4 , s:t0 , 'none'      , ''  )
+endif
+endif
