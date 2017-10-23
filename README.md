@@ -24,18 +24,16 @@
 
 <p>If you don’t have a preferred helper, consider trying <a href="https://github.com/junegunn/vim-plug">vim-plug</a>, which can be installed with:</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
   https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>To install wonka using vim-plug, add the following to the top of your <code class="highlighter-rouge">vimrc</code>:</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>call plug#begin('~/.vim/plugged')
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>call plug#begin('~/.vim/plugged')
 Plug 'nightsense/wonka'
 call plug#end()
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>Then restart vim and run <code class="highlighter-rouge">PlugUpdate</code> (from the vim command line).</p>
 
@@ -58,17 +56,15 @@ call plug#end()
 
 <p>Disable highlighted <strong>current line number</strong>:</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>let g:wonka_dark_CursorLineNr = 'off'
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>let g:wonka_dark_CursorLineNr = 'off'
 let g:wonka_light_CursorLineNr = 'off'
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>Disable the highlighted <strong>line number background</strong>:</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>let g:wonka_dark_LineNr = 'off'
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>let g:wonka_dark_LineNr = 'off'
 let g:wonka_light_LineNr = 'off'
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <h2 id="terminal-vim">terminal vim</h2>
 
