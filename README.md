@@ -7,8 +7,8 @@
 <table>
 <tr><td align="center"><strong>wonka-dark</strong></td><td align="center"><strong>wonka-light</strong></td></tr>
 <tr>
-<td><img src="/img/screenshot-wonka-dark.png" alt="screenshot of the wonka-dark vim theme" width="288" /></td>
-<td align="center"><img src="/img/screenshot-wonka-light.png" alt="screenshot of the wonka-light vim theme" width="288" /></td>
+<td><img src="/img/screenshot-wonka-dark.png" alt="screenshot of the wonka-dark vim theme" width="360" /></td>
+<td align="center"><img src="/img/screenshot-wonka-light.png" alt="screenshot of the wonka-light vim theme" width="360" /></td>
 </tr>
 </table>
 
