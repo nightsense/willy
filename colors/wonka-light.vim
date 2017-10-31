@@ -16,14 +16,14 @@ let s:g4 = '756861'
 let s:g5 = '6b5548'
 let s:g6 = '402f25'
 let s:g7 = '2b1b12'
-let s:g8 = 'e04a4a'
-let s:g9 = 'e07538'
+let s:g8 = 'f55050'
+let s:g9 = 'e06a26'
 let s:gA = 'd4ac35'
-let s:gB = '349e34'
-let s:gC = '289e81'
-let s:gD = '3f90bf'
-let s:gE = '9a69b5'
-let s:gF = 'd46a85'
+let s:gB = '219e21'
+let s:gC = '1b9e9e'
+let s:gD = '468dd4'
+let s:gE = 'a26fbf'
+let s:gF = 'd46a84'
 
 " terminal colours
 let s:t0 = '00'
@@ -46,20 +46,20 @@ let s:tF = '14'
 " neovim colours
 if has('nvim')
   let g:terminal_color_0 =  '#fff2eb'
-  let g:terminal_color_1 =  '#e04a4a'
-  let g:terminal_color_2 =  '#349e34'
+  let g:terminal_color_1 =  '#f55050'
+  let g:terminal_color_2 =  '#219e21'
   let g:terminal_color_3 =  '#d4ac35'
-  let g:terminal_color_4 =  '#3f90bf'
-  let g:terminal_color_5 =  '#9a69b5'
-  let g:terminal_color_6 =  '#289e81'
+  let g:terminal_color_4 =  '#468dd4'
+  let g:terminal_color_5 =  '#a26fbf'
+  let g:terminal_color_6 =  '#1b9e9e'
   let g:terminal_color_7 =  '#6b5548'
   let g:terminal_color_8 =  '#94847b'
-  let g:terminal_color_9 =  '#e07538'
+  let g:terminal_color_9 =  '#e06a26'
   let g:terminal_color_10 = '#e0cfc5'
   let g:terminal_color_11 = '#9e8d83'
   let g:terminal_color_12 = '#756861'
   let g:terminal_color_13 = '#402f25'
-  let g:terminal_color_14 = '#d46a85'
+  let g:terminal_color_14 = '#d46a84'
   let g:terminal_color_15 = '#2b1b12'
 endif
 
@@ -157,7 +157,7 @@ cal <sid>h('PmenuThumb'       , s:g4 , s:g4 , s:t4 , s:t4 , 'none'      , ''  )
 cal <sid>h('VertSplit'        , s:g2 , s:g2 , s:t2 , s:t2 , 'none'      , ''  )
 
 
-"=== SYNTAX HIGHLIGHTING ======================================================
+"=== ALERT/SYNTAX HIGHLIGHTING ================================================
 
 " RED for warning elements
 cal <sid>h('DiffDelete'       , s:g8 , s:g0 , s:t8 , s:t0 , 'reverse'   , ''  )
