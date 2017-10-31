@@ -94,32 +94,32 @@ let g:wonka_light_LineNr = 'off'
     <tr>
       <td style="text-align: right"><img src="http://www.colorhexa.com/2b1b12.png" height="24" width="42" /> <code class="highlighter-rouge">2b1b12</code> </td>
       <td style="text-align: center"><img src="http://www.colorhexa.com/e04a4a.png" height="24" width="42" /> <code class="highlighter-rouge">e04a4a</code> </td>
-      <td style="text-align: left"><img src="http://www.colorhexa.com/bf6060.png" height="24" width="42" /> <code class="highlighter-rouge">bf6060</code></td>
+      <td style="text-align: left"><img src="http://www.colorhexa.com/bf5050.png" height="24" width="42" /> <code class="highlighter-rouge">bf5050</code></td>
     </tr>
     <tr>
       <td style="text-align: right"><img src="http://www.colorhexa.com/402f25.png" height="24" width="42" /> <code class="highlighter-rouge">402f25</code> </td>
       <td style="text-align: center"><img src="http://www.colorhexa.com/e07538.png" height="24" width="42" /> <code class="highlighter-rouge">e07538</code> </td>
-      <td style="text-align: left"><img src="http://www.colorhexa.com/b5734c.png" height="24" width="42" /> <code class="highlighter-rouge">b5734c</code></td>
+      <td style="text-align: left"><img src="http://www.colorhexa.com/b5693c.png" height="24" width="42" /> <code class="highlighter-rouge">b5693c</code></td>
     </tr>
     <tr>
       <td style="text-align: right"><img src="http://www.colorhexa.com/6b5548.png" height="24" width="42" /> <code class="highlighter-rouge">6b5548</code> </td>
       <td style="text-align: center"><img src="http://www.colorhexa.com/d4ac35.png" height="24" width="42" /> <code class="highlighter-rouge">d4ac35</code> </td>
-      <td style="text-align: left"><img src="http://www.colorhexa.com/ab9248.png" height="24" width="42" /> <code class="highlighter-rouge">ab9248</code></td>
+      <td style="text-align: left"><img src="http://www.colorhexa.com/ab8e38.png" height="24" width="42" /> <code class="highlighter-rouge">ab8e38</code></td>
     </tr>
     <tr>
       <td style="text-align: right"><img src="http://www.colorhexa.com/756861.png" height="24" width="42" /> <code class="highlighter-rouge">756861</code> </td>
-      <td style="text-align: center"><img src="http://www.colorhexa.com/349e42.png" height="24" width="42" /> <code class="highlighter-rouge">349e42</code> </td>
-      <td style="text-align: left"><img src="http://www.colorhexa.com/508a58.png" height="24" width="42" /> <code class="highlighter-rouge">508a58</code></td>
+      <td style="text-align: center"><img src="http://www.colorhexa.com/349e34.png" height="24" width="42" /> <code class="highlighter-rouge">349e34</code> </td>
+      <td style="text-align: left"><img src="http://www.colorhexa.com/508a50.png" height="24" width="42" /> <code class="highlighter-rouge">508a50</code></td>
     </tr>
     <tr>
       <td style="text-align: right"><img src="http://www.colorhexa.com/94847b.png" height="24" width="42" /> <code class="highlighter-rouge">94847b</code> </td>
-      <td style="text-align: center"><img src="http://www.colorhexa.com/289e8e.png" height="24" width="42" /> <code class="highlighter-rouge">289e8e</code> </td>
-      <td style="text-align: left"><img src="http://www.colorhexa.com/458a81.png" height="24" width="42" /> <code class="highlighter-rouge">458a81</code></td>
+      <td style="text-align: center"><img src="http://www.colorhexa.com/289e81.png" height="24" width="42" /> <code class="highlighter-rouge">289e81</code> </td>
+      <td style="text-align: left"><img src="http://www.colorhexa.com/458a79.png" height="24" width="42" /> <code class="highlighter-rouge">458a79</code></td>
     </tr>
     <tr>
       <td style="text-align: right"><img src="http://www.colorhexa.com/9e8d83.png" height="24" width="42" /> <code class="highlighter-rouge">9e8d83</code> </td>
       <td style="text-align: center"><img src="http://www.colorhexa.com/3f90bf.png" height="24" width="42" /> <code class="highlighter-rouge">3f90bf</code> </td>
-      <td style="text-align: left"><img src="http://www.colorhexa.com/5c869e.png" height="24" width="42" /> <code class="highlighter-rouge">5c869e</code></td>
+      <td style="text-align: left"><img src="http://www.colorhexa.com/4f819e.png" height="24" width="42" /> <code class="highlighter-rouge">4f819e</code></td>
     </tr>
     <tr>
       <td style="text-align: right"><img src="http://www.colorhexa.com/e0cfc5.png" height="24" width="42" /> <code class="highlighter-rouge">e0cfc5</code> </td>
@@ -143,10 +143,10 @@ let g:wonka_light_LineNr = 'off'
 <p><img src="http://www.colorhexa.com/d4ac35.png" height="24" width="42" />
 <strong>Yellow</strong>, the classic highlighting colour, is applied to elements that are not warnings, yet should draw attention with high visibility. These <strong>highlighted elements</strong> include search results, task tags (<code class="highlighter-rouge">TODO</code>, <code class="highlighter-rouge">FIXME</code>…), and diff changes.</p>
 
-<p><img src="http://www.colorhexa.com/349e42.png" height="24" width="42" />
+<p><img src="http://www.colorhexa.com/349e34.png" height="24" width="42" />
 <strong>Green</strong>, the colour that says “go ahead, proceed with the task at hand”, is used for <strong>action elements</strong>, such as statements (if/then, while/do, case…), mode indicators (insert, visual…), vim user prompts, and diff additions.</p>
 
-<p><img src="http://www.colorhexa.com/289e8e.png" height="24" width="42" />
+<p><img src="http://www.colorhexa.com/289e81.png" height="24" width="42" />
 <strong>Teal</strong> is named after the “common teal”, a kind of duck, thus connecting this colour with the concept of “species”, which is a means of classifying life into very specific types. Teal is therefore used for specifying <strong>object types</strong>, such as data type (boolean, integer, string…) or storage class (static, volatile…), as well as marking mislocalized words (that is, words that are not misspelled but of the wrong type, namely a foreign locale type).</p>
 
 <p><img src="http://www.colorhexa.com/3f90bf.png" height="24" width="42" />
