@@ -22,7 +22,7 @@ let s:gA = 'd4ac35'
 let s:gB = '349e34'
 let s:gC = '289e81'
 let s:gD = '3f90bf'
-let s:gE = 'a26fbf'
+let s:gE = '9a69b5'
 let s:gF = 'd46a85'
 
 " terminal colours
@@ -50,7 +50,7 @@ if has('nvim')
   let g:terminal_color_2 =  '#349e34'
   let g:terminal_color_3 =  '#d4ac35'
   let g:terminal_color_4 =  '#3f90bf'
-  let g:terminal_color_5 =  '#a26fbf'
+  let g:terminal_color_5 =  '#9a69b5'
   let g:terminal_color_6 =  '#289e81'
   let g:terminal_color_7 =  '#6b5548'
   let g:terminal_color_8 =  '#94847b'

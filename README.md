@@ -123,7 +123,7 @@ let g:wonka_light_LineNr = 'off'
     </tr>
     <tr>
       <td style="text-align: right"><img src="http://www.colorhexa.com/e0cfc5.png" height="24" width="42" /> <code class="highlighter-rouge">e0cfc5</code> </td>
-      <td style="text-align: center"><img src="http://www.colorhexa.com/a26fbf.png" height="24" width="42" /> <code class="highlighter-rouge">a26fbf</code> </td>
+      <td style="text-align: center"><img src="http://www.colorhexa.com/9a69b5.png" height="24" width="42" /> <code class="highlighter-rouge">9a69b5</code> </td>
       <td style="text-align: left"><img src="http://www.colorhexa.com/876f94.png" height="24" width="42" /> <code class="highlighter-rouge">876f94</code></td>
     </tr>
     <tr>
@@ -152,7 +152,7 @@ let g:wonka_light_LineNr = 'off'
 <p><img src="http://www.colorhexa.com/3f90bf.png" height="24" width="42" />
 <strong>Blue</strong>, a colour of calm stability, is used for <strong>constants</strong>, which come in the form of boolean values, integers, floating-point numbers, characters, and strings.</p>
 
-<p><img src="http://www.colorhexa.com/a26fbf.png" height="24" width="42" />
+<p><img src="http://www.colorhexa.com/9a69b5.png" height="24" width="42" />
 <strong>Purple</strong>, often associated with (historically) rare purple dyes produced for special works of art, is used for <strong>special text</strong>, including special characters (standalone or within syntax units), vim tags, and debugging statements. Rarely-used words are also marked, allowing the writer to consider whether such a specially uncommon word is appropriate.</p>
 
 <p><img src="http://www.colorhexa.com/d46a85.png" height="24" width="42" />
